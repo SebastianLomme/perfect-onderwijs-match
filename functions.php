@@ -87,3 +87,17 @@ function understrap_child_customize_controls_js() {
 	);
 }
 add_action( 'customize_controls_enqueue_scripts', 'understrap_child_customize_controls_js' );
+
+
+// UnderStrap's includes directory.
+$understrap_inc_dir = 'inc';
+
+// Array of files to include.
+$understrap_includes = array(
+	'/hooks.php',                           // Custom hooks.
+);
+
+// Include files.
+foreach ( $understrap_includes as $file ) {
+	require_once get_theme_file_path( $understrap_inc_dir . $file );
+}

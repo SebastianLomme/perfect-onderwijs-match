@@ -1,0 +1,125 @@
+.info-section {
+    margin-block: 2em;
+
+    @include for-md {
+        margin-block: 3em;
+    }
+
+    &__body {
+        padding-left: 1em;
+    }
+    img {
+        // aspect-ratio: 16/9;
+        width: 330px;
+        height: 220px;
+        box-shadow: 10px 10px 0px $primary;
+        object-fit: cover;
+
+        @include for-lg {
+            width: 500px;
+            height: 300px;
+        }
+    }
+
+    .row {
+        padding-bottom: 2em;
+    }
+}
+
+.jobs-list-section {
+    .btn {
+        width: fit-content;
+    }
+
+    &-card {
+        padding: 12px;
+    }
+
+    .card-holder {
+        padding: 12px;
+        background-color: $primary;
+        color: $light;
+        border-radius: 25px;
+        border: 1px solid;
+
+        &__content {
+            height: 100%;
+            display: grid;
+            grid-template-areas:
+                "head"
+                "main"
+                "foot";
+            grid-template-rows: 135px auto 80px;
+        }
+
+        &__list {
+            grid-area: main;
+
+            li {
+                margin-bottom: 12px;
+            }
+        }
+        &__title {
+            // text-align: center;
+            font-size: 28px;
+            padding-top: 1em;
+            grid-area: head;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        // margin: 1em;
+
+        &_btn-container {
+            grid-area: foot;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+
+            .btn {
+                height: fit-content;
+            }
+        }
+    }
+    .last-card {
+        display: none;
+
+        @include for-md {
+            display: block;
+        }
+
+        @include for-lg {
+            display: none;
+        }
+    }
+}
+
+.about-us-section {
+    background: rgba(152, 100, 166, 0.8);
+    color: $light;
+    padding-block: 2em;
+    margin-inline: 0;
+    margin-block: 3em;
+
+    &-card {
+        padding: 12px;
+    }
+    .card-holder {
+        padding: 12px;
+        // height: 450px;
+        background-color: $primary;
+        color: $light;
+        border-radius: 25px;
+        text-align: center;
+
+        &__content {
+            padding: 2em;
+        }
+    }
+}
+
+// .container-fluid {
+//     padding-left: 0;
+//     padding-right: 0;
+// }

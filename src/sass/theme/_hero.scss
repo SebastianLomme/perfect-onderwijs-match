@@ -1,0 +1,39 @@
+.hero-section {
+    background-image: url("./../inc/images/hero-image-small.jpg");
+    background-color: $primary;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $light;
+
+    @include for-md {
+        height: 390px;
+    }
+
+    @include for-lg {
+        height: 650px;
+    }
+
+    .overlay {
+        position: absolute;
+        inset: 0;
+        background-color: rgba(152, 100, 166, 0.8);
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 1;
+        text-align: center;
+        .button {
+            border-radius: 10px;
+            width: fit-content;
+        }
+    }
+}

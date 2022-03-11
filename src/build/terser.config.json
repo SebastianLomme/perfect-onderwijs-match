@@ -1,11 +1,10 @@
 {
-    "parse": {
-    },
+    "parse": {},
     "compress": {
         "booleans": true,
         "conditionals": true,
-        "drop_console": true,
-        "drop_debugger": true,
+        "drop_console": false,
+        "drop_debugger": false,
         "if_return": true,
         "join_vars": true,
         "keep_classnames": false,
@@ -15,8 +14,7 @@
         "warnings": false,
         "ecma": 5
     },
-    "mangle": {
-    },
+    "mangle": {},
     "sourceMap": {
         "filename": "js/child-theme.js.map",
         "url": "child-theme.min.js.map"

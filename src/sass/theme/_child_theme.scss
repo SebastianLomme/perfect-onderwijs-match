@@ -1,1 +1,45 @@
+@font-face {
+    font-family: "titlefont";
+    font-weight: 400;
+    src: url("./../src/sass/assets/fonts/CenturyGothic.ttf") format("truetype");
+    font-display: swap;
+}
 
+@font-face {
+    font-family: "titlefont";
+    font-weight: 700;
+    src: url("./../src/sass/assets/fonts/gothicb.ttf") format("truetype");
+    font-display: swap;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap");
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: $dark;
+
+    @include for-md {
+        font-size: 18px;
+    }
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 700;
+    font-family: "titlefont", sans-serif;
+}
+
+h1,
+h2 {
+    font-size: 32px;
+
+    @include for-md {
+        font-size: 48px;
+    }
+}
+
+h3 {
+    font-size: 28px;
+}
