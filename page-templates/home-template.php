@@ -36,34 +36,45 @@ $container = get_theme_mod( 'understrap_container_type' );
                         <p>
                             Voor scholen en leerkrachten ga ik op zoek naar de perfecte match in het basisonderwijs/
                             speciaal onderwijs (SO/VSO) en Praktijkonderwijs.
+                        </p>
+                        <p>
                             De afgelopen jaren ben ik veel leerkrachten tegengekomen die niet op de juiste plek zitten,
                             denk aan de verkeerde inschatting van de doelgroep of het systeem van de school waar ze niet
                             aan kunnen wennen. Ook merk ik dat scholen het soms lastig vinden om de Perfecte match te
                             vinden.
+                        </p>
+                        <p>
                             Omdat ik veel op de werkvloer te vinden ben weet ik van beide kanten wat er nodig is voor
                             een perfecte match. 
                         </p>
-                    </div>
+                    </div> <!-- /info-section__body -->
                     <div class=" col-md-6 order-md-0 d-flex align-items-center">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/inc/images/wie-ben-ik.jpg" alt="">
                     </div>
-                </div>
+                </div> <!-- /row -->
 
                 <div class="row justify-content-between">
 
                     <div class="col-md-6">
                         <h3 class="title">Het gezicht achter Perfect Onderwijs Match</h3>
-                        <p>Sinds 2013 werk ik – Jennifer – in het onderwijs. Daarnaast ben ik getrouwd en moeder van 2
+
+                        <p>
+                            Sinds 2013 werk ik – Jennifer – in het onderwijs. Daarnaast ben ik getrouwd en moeder van 2
                             kinderen. Ik ben gestart in het regulier onderwijs en na een aantal jaren overgestapt naar
                             het speciaal onderwijs. Daar heb ik mijn hart verloren aan de leerlingen! Het speciaal
                             onderwijs is voor mij een warme plek waar ik graag ben. Mijn enorme portie geduld en liefde
                             voor deze leerlingen is mijn kracht.
+                        </p>
+                        <p>
                             Sinds een aantal jaar werk ik als Ambulant Begeleider expertise cluster 3 (zeer moeilijk
                             lerend onderwijs), daardoor kom ik op veel verschillende scholen. Op deze scholen ondersteun
                             en coach ik het team.
+                        </p>
+                        <p>
                             Door de grote problematiek in het onderwijs (het vinden van de juiste leerkrachten voor de
                             juiste plek) maakt dat ik Perfect Onderwijs Match ben gestart. Het geeft een enorme kick om
-                            de juiste match te maken en daar streef ik naar een 100% garantie voor kwaliteit!</p>
+                            de juiste match te maken en daar streef ik naar een 100% garantie voor kwaliteit!
+                        </p>
                     </div>
                     <div class="col-md-6 d-flex align-items-center">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/inc/images/wie-is-pom.jpg" alt="">
@@ -86,7 +97,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
                 </div>
 
-            </div>
+            </div> <!-- info-section container -->
 
             <div class="jobs-list-section container">
                 <div class="row">
@@ -99,10 +110,12 @@ $container = get_theme_mod( 'understrap_container_type' );
                                     <li class="studie">HBO</li>
                                     <li class="opleiding">Speciaal onderwijs</li>
                                     <li class="ervaring">0-1 jaar ervaring</li>
-                                    <li class="platings-datum">Geplaats op 07-03-2022</li>
+                                    <li class="platings-datum">Geplaatst op 07-03-2022</li>
                                 </ul>
-                                <div class="card-holder_btn-container"><a href="#"
-                                        class="jobs-list-link btn btn-secondary">Vacature</a></div>
+                                <div class="card-holder_btn-container">
+                                    <a href="#" class="jobs-list-link btn btn-outline-light">Solliciteer</a>
+                                    <a href="#" class="jobs-list-link btn btn-secondary">Vacature</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -115,10 +128,12 @@ $container = get_theme_mod( 'understrap_container_type' );
                                     <li class="studie">HBO</li>
                                     <li class="opleiding">Speciaal onderwijs</li>
                                     <li class="ervaring">0-1 jaar ervaring</li>
-                                    <li class="platings-datum">Geplaats op 07-03-2022</li>
+                                    <li class="platings-datum">Geplaatst op 07-03-2022</li>
                                 </ul>
-                                <div class="card-holder_btn-container"><a href="#"
-                                        class="jobs-list-link btn btn-secondary">Vacature</a></div>
+                                <div class="card-holder_btn-container">
+                                    <a href="#" class="jobs-list-link btn btn-outline-secondary">Solliciteer</a>
+                                    <a href="#" class="jobs-list-link btn btn-secondary">Vacature</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -131,10 +146,12 @@ $container = get_theme_mod( 'understrap_container_type' );
                                     <li class="studie">HBO</li>
                                     <li class="opleiding">Speciaal onderwijs</li>
                                     <li class="ervaring">0-1 jaar ervaring</li>
-                                    <li class="platings-datum">Geplaats op 07-03-2022</li>
+                                    <li class="platings-datum">Geplaatst op 07-03-2022</li>
                                 </ul>
-                                <div class="card-holder_btn-container"><a href="#"
-                                        class="jobs-list-link btn btn-secondary">Vacature</a></div>
+                                <div class="card-holder_btn-container">
+                                    <a href="#" class="jobs-list-link btn btn-outline-secondary">Solliciteer</a>
+                                    <a href="#" class="jobs-list-link btn btn-secondary">Vacature</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -147,10 +164,12 @@ $container = get_theme_mod( 'understrap_container_type' );
                                     <li class="studie">HBO</li>
                                     <li class="opleiding">Speciaal onderwijs</li>
                                     <li class="ervaring">0-1 jaar ervaring</li>
-                                    <li class="platings-datum">Geplaats op 07-03-2022</li>
+                                    <li class="platings-datum">Geplaatst op 07-03-2022</li>
                                 </ul>
-                                <div class="card-holder_btn-container"><a href="#"
-                                        class="jobs-list-link btn btn-secondary">Vacature</a></div>
+                                <div class="card-holder_btn-container">
+                                    <a href="#" class="jobs-list-link btn btn-outline-secondary">Solliciteer</a>
+                                    <a href="#" class="jobs-list-link btn btn-secondary">Vacature</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -159,48 +178,142 @@ $container = get_theme_mod( 'understrap_container_type' );
                     <a href="#" class="btn btn-secondary">Alle vacatures</a>
                 </div>
             </div>
-            <div class="about-us-section container-fluid">
-                <div class="title text-center">
-                    <h3>Wat doen we?</h3>
+            <div class="main-section image-light container-fluid"
+                style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/inc/images/waarom-pom.jpg)">
+                <div class="container">
+                    <div class="title text-center">
+                        <h3>Werving & selectie</h3>
+                        <h3>Speciaal onderwijs (SO/VSO) / Praktijkonderwijs / Basisonderwijs</h3>
+                        <p>Perfect Onderwijs Match maakt de match tussen leerkracht en school. Dit kan op 2
+                            manieren:
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 main-section-card">
+                            <div class="card-holder">
+                                <div class="card-holder__content">
+                                    <p>
+                                        De school zet een opdracht uit bij Perfect Onderwijs Match en Jennifer gaat
+                                        op
+                                        zoek
+                                        naar de best passende leerkracht;
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 main-section-card">
+                            <div class="card-holder">
+                                <div class="card-holder__content">
+                                    <p>
+                                        Jennifer heeft een goede leerkracht en gaat op zoek naar de best passende
+                                        school.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <p>Laat je in de werkwijze en persoonlijke benadering vooral verrassen en ga samen de
+                            uitdaging
+                            aan.
+                        </p>
+                        <p>
+                            Uiteraard krijg jij een mooi dienstverband bij de school zelf. Perfect Onderwijs Match
+                            bemiddelt
+                            tussen de twee partijen.</p>
+                    </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-4 about-us-section-card">
-                        <div class="card-holder">
-                            <div class="card-holder__content">
-                                <h3>Werving</h3>
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                </p>
+            </div>
+            <div class="main-section container-fluid">
+                <div class="container">
+                    <div class="title text-center">
+                        <h3>ZZP bemiddeling</h3>
+                        <h3>Ben je ZZP’er of wil je werken als ZZP’er?</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 main-section-card">
+                            <div class="card-holder">
+                                <div class="card-holder__content">
+                                    <p>
+                                        ➸ Jennifer van Perfect Onderwijs Match heeft een passende opdracht voor jou
+                                        beschikbaar. Je hoeft alleen maar met haar in gesprek te gaan en de vele
+                                        mogelijkheden met elkaar te bespreken.
+                                    </p>
+                                    <p>
+                                        De onderhandeling over het uurtarief? Dat doet Jennifer! Afspraken maken over
+                                        het
+                                        aantal uren en de duur van de opdracht doet Jennifer ook. Perfect Onderwijs
+                                        Match is
+                                        gericht op het ontzorgen van jou, zodat jij kan doen waar je goed in bent:
+                                        lesgeven
+                                        aan een dankbare en mooie doelgroep leerlingen.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 main-section-card">
+                            <div class="card-holder">
+                                <div class="card-holder__content">
+                                    <p>
+                                        ➸ Nog geen ervaring als ZZP’er? Of ga je ondernemer worden en heb je daarbij
+                                        hulp
+                                        nodig? Of een eerste opdracht? Jennifer ondersteund jou vrijblijvend bij de
+                                        start
+                                        van jouw eigen onderneming, gaat met jou op zoek naar de juiste opdracht en
+                                        ontzorgd
+                                        jou en de school bij de administratieve zaken.
+                                    </p>
+                                    <p>
+                                        ➸ Jij geeft zelf aan wat je leuk lijkt binnen de opdrachten die beschikbaar
+                                        zijn. Je
+                                        hebt daarin veel vrijheid.
+                                    </p>
+                                    <p>
+                                        Gedurende de uitvoering van de opdracht mag jij veel (persoonlijke) aandacht,
+                                        ondersteuning en coaching verwachten van Jennifer.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 about-us-section-card">
-                        <div class="card-holder">
-                            <div class="card-holder__content">
-                                <h3>Selectie</h3>
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 about-us-section-card">
-                        <div class="card-holder">
-                            <div class="card-holder__content">
-                                <h3>Bemiddeling</h3>
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                </div>
 
+            </div>
+            <div class="main-section image-light container-fluid"
+                style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/inc/images/waarom-pom.jpg)">
+                <div class="container">
+                    <div class="title text-center">
+                        <h3>Coaching, scholing en voorlichting</h3>
+                        <h3>Heb je als school behoefte aan: </h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 main-section-card">
+                            <div class="card-holder">
+                                <div class="card-holder__content">
+                                    <p>
+                                        ➸ Coaching: heb je een moeilijke hulpvraag (cluster 3/4) en behoefte aan een
+                                        ervaren
+                                        Ambulant Begeleider die met jou meekijkt, adviseert en aan de slag gaat met de
+                                        hulpvraag?
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 main-section-card">
+                            <div class="card-holder">
+                                <div class="card-holder__content">
+                                    <p>
+                                        ➸ Scholing & voorlichting: heb je een specifieke scholingsvraag, denk aan ASS,
+                                        gedragsproblematiek, ADHD, Down Syndroom, PDD-NOS, dyslectie, etc.? Of heb je
+                                        behoefte aan hoe je didactische lessen praktischer vorm kunt geven? Perfect
+                                        Onderwijs Match heeft deze kennis en expertise in huis en gaat met de hulpvraag
+                                        aan
+                                        de slag.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>

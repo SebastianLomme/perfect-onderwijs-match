@@ -5,7 +5,6 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -11514,7 +11513,7 @@ a.skip-link {
   font-display: swap;
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "titlefont", sans-serif;
   font-size: 16px;
   color: #1d1d1b;
   background: #faf7fb;
@@ -11531,7 +11530,6 @@ h2,
 h3,
 .h3 {
   font-weight: 700;
-  font-family: "titlefont", sans-serif;
 }
 
 h1, .h1,
@@ -11789,9 +11787,12 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   }
 }
 .info-section .row {
-  padding-bottom: 2em;
+  margin-block: 3em;
 }
 
+.jobs-list-section {
+  margin-block: 3em;
+}
 .jobs-list-section .btn {
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -11831,8 +11832,9 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 .jobs-list-section .card-holder_btn-container {
   grid-area: foot;
   display: inline-flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  flex-direction: column;
 }
 .jobs-list-section .card-holder_btn-container .btn {
   height: -webkit-fit-content;
@@ -11853,30 +11855,37 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   }
 }
 
-.about-us-section {
+.main-section {
   background: rgba(152, 100, 166, 0.8);
   color: #faf7fb;
-  padding-block: 2em;
+  padding-block: 3em;
   margin-inline: 0;
-  margin-block: 3em;
 }
-.about-us-section-card {
+.main-section.image-light {
+  color: #1d1d1b;
+  background-blend-mode: overlay;
+  background: rgba(250, 247, 251, 0.8);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-section-card {
   padding: 12px;
 }
-.about-us-section .card-holder {
+.main-section .card-holder {
   padding: 12px;
+  height: 100%;
   background-color: #9864a6;
   color: #faf7fb;
   border-radius: 25px;
-  text-align: center;
 }
-.about-us-section .card-holder__content {
+.main-section .card-holder__content {
   padding: 2em;
 }
 
 .contact-us-section {
   display: flex;
   flex-direction: column;
+  padding-block: 3em;
 }
 @media (min-width: 768px) {
   .contact-us-section {
@@ -11898,6 +11907,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   padding: 2em;
   text-align: center;
   height: max-container;
+  margin: 12px;
 }
 .contact-us-section .contact-info-card h3, .contact-us-section .contact-info-card .h3 {
   margin-bottom: 2em;
@@ -11930,6 +11940,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   padding: 2em;
   text-align: center;
   color: #fff;
+  margin: 12px;
 }
 .contact-us-section .contact-info-form h3, .contact-us-section .contact-info-form .h3 {
   margin-bottom: 2em;

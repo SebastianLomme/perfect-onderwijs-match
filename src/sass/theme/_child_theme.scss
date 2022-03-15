@@ -12,10 +12,8 @@
     font-display: swap;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap");
-
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "titlefont", sans-serif;
     font-size: 16px;
     color: $dark;
     background: $light;
@@ -29,7 +27,6 @@ h1,
 h2,
 h3 {
     font-weight: 700;
-    font-family: "titlefont", sans-serif;
 }
 
 h1,
