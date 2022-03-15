@@ -123,3 +123,83 @@
 //     padding-left: 0;
 //     padding-right: 0;
 // }
+
+.contact-us-section {
+    // height: 750px;
+    display: flex;
+    flex-direction: column;
+
+    @include for-md {
+        flex-direction: row;
+        .contact-info {
+            &-card {
+                width: 50%;
+            }
+            &-form {
+                width: 50%;
+            }
+        }
+    }
+
+    .contact-info {
+        &-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            // justify-content: space-between;
+            background-color: #fff;
+            border-radius: 25px;
+            padding: 2em;
+            text-align: center;
+            height: max-container;
+            h3 {
+                margin-bottom: 2em;
+            }
+            img {
+                border-radius: 50%;
+                width: 50%;
+                margin-bottom: 2em;
+                object-fit: cover;
+                object-position: center center;
+                aspect-ratio: 1/1;
+            }
+
+            .social-icons {
+                height: 35px;
+                width: 35px;
+                border-radius: 0;
+                cursor: pointer;
+            }
+
+            .social-holder {
+                display: flex;
+                justify-content: space-evenly;
+                width: 100%;
+            }
+
+            // width: 50%;
+        }
+        &-form {
+            background-color: $primary;
+            height: max-container;
+            border-radius: 25px;
+            padding: 2em;
+            text-align: center;
+            color: #fff;
+
+            h3 {
+                margin-bottom: 2em;
+            }
+
+            // width: 50%;
+        }
+    }
+}
+
+.wpcf7-form-control {
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    margin-block: 0.5em;
+    padding: 0.375em;
+}

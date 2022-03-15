@@ -32,17 +32,16 @@ $container = get_theme_mod( 'understrap_container_type' );
             <div class="info-section container">
                 <div class="row justify-content-between">
                     <div class="info-section__body  col-md-6 order-md-1">
-                        <h3 class="title">Wie ben ik?</h3>
+                        <h3 class="title">Daarom kies jij voor Perfect Onderwijs Match!</h3>
                         <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                            Ipsum
-                            has been the industry's standard dummy text ever since the 1500s,
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                            Ipsum
-                            has been the industry's standard dummy text ever since the 1500s,
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                            Ipsum
-                            has been the industry's standard dummy text ever since the 1500s,
+                            Voor scholen en leerkrachten ga ik op zoek naar de perfecte match in het basisonderwijs/
+                            speciaal onderwijs (SO/VSO) en Praktijkonderwijs.
+                            De afgelopen jaren ben ik veel leerkrachten tegengekomen die niet op de juiste plek zitten,
+                            denk aan de verkeerde inschatting van de doelgroep of het systeem van de school waar ze niet
+                            aan kunnen wennen. Ook merk ik dat scholen het soms lastig vinden om de Perfecte match te
+                            vinden.
+                            Omdat ik veel op de werkvloer te vinden ben weet ik van beide kanten wat er nodig is voor
+                            een perfecte match. 
                         </p>
                     </div>
                     <div class=" col-md-6 order-md-0 d-flex align-items-center">
@@ -53,16 +52,18 @@ $container = get_theme_mod( 'understrap_container_type' );
                 <div class="row justify-content-between">
 
                     <div class="col-md-6">
-                        <h3 class="title">Wie is POM?</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                            Ipsum
-                            has been the industry's standard dummy text ever since the 1500s,
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                            Ipsum
-                            has been the industry's standard dummy text ever since the 1500s,
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                            Ipsum
-                            has been the industry's standard dummy text ever since the 1500s,</p>
+                        <h3 class="title">Het gezicht achter Perfect Onderwijs Match</h3>
+                        <p>Sinds 2013 werk ik – Jennifer – in het onderwijs. Daarnaast ben ik getrouwd en moeder van 2
+                            kinderen. Ik ben gestart in het regulier onderwijs en na een aantal jaren overgestapt naar
+                            het speciaal onderwijs. Daar heb ik mijn hart verloren aan de leerlingen! Het speciaal
+                            onderwijs is voor mij een warme plek waar ik graag ben. Mijn enorme portie geduld en liefde
+                            voor deze leerlingen is mijn kracht.
+                            Sinds een aantal jaar werk ik als Ambulant Begeleider expertise cluster 3 (zeer moeilijk
+                            lerend onderwijs), daardoor kom ik op veel verschillende scholen. Op deze scholen ondersteun
+                            en coach ik het team.
+                            Door de grote problematiek in het onderwijs (het vinden van de juiste leerkrachten voor de
+                            juiste plek) maakt dat ik Perfect Onderwijs Match ben gestart. Het geeft een enorme kick om
+                            de juiste match te maken en daar streef ik naar een 100% garantie voor kwaliteit!</p>
                     </div>
                     <div class="col-md-6 d-flex align-items-center">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/inc/images/wie-is-pom.jpg" alt="">
@@ -75,15 +76,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 
                     <div class="col-md-6 order-md-1">
                         <h3 class="title">Waarom POM?</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                            Ipsum
-                            has been the industry's standard dummy text ever since the 1500s,
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                            Ipsum
-                            has been the industry's standard dummy text ever since the 1500s,
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                            Ipsum
-                            has been the industry's standard dummy text ever since the 1500s,</p>
+                        <p>Door mijn ervaring en netwerk kan ik leerkrachten goed matchen aan een organisatie. Wat past
+                            bij jou en hoe ziet jouw droombaan eruit? Door over deze vragen na te denken en met mij te
+                            bespreken kunnen we samen kijken wat er met jou matcht.</p>
                     </div>
                     <div class="col-md-6 order-md-0 d-flex align-items-center">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/inc/images/waarom-pom.jpg" alt="">
@@ -206,6 +201,36 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </div>
                     </div>
 
+                </div>
+
+            </div>
+            <div class="contact-us-section container">
+                <div class="contact-info-card">
+                    <!-- <div class="contact-info-card-content"> -->
+                    <h3>Neem contact op:</h3>
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/inc/images/contact-ons.webp" alt="">
+                    <div>
+                        <p>Jennifer van der Stelt- Jacobs<br>
+                            Eigenaresse Perfect Onderwijs Match (POM)</p>
+                    </div>
+                    <div>
+                        <p>06-12345678<br>
+                            Jennifer@perfectonderwijsmatch.nl</p>
+                    </div>
+                    <div class="social-holder">
+                        <img class="social-icons"
+                            src="<?php echo get_stylesheet_directory_uri(); ?>/inc/images/facebook.svg" alt="">
+                        <img class="social-icons"
+                            src="<?php echo get_stylesheet_directory_uri(); ?>/inc/images/instagram.svg" alt="">
+                        <img class="social-icons"
+                            src="<?php echo get_stylesheet_directory_uri(); ?>/inc/images/linked-in.svg" alt="">
+                        <!-- </div> -->
+                    </div>
+
+                </div>
+                <div class="contact-info-form">
+                    <h3>Vul onderstaand formulier in en we bellen je z.s.m. terug!</h3>
+                    <?php echo do_shortcode('[contact-form-7 id="88" title="Contactformulier 1"]'); ?>
                 </div>
 
             </div>
