@@ -131,7 +131,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                                     <li class="platings-datum">Geplaatst op 07-03-2022</li>
                                 </ul>
                                 <div class="card-holder_btn-container">
-                                    <a href="#" class="jobs-list-link btn btn-outline-secondary">Solliciteer</a>
+                                    <a href="#" class="jobs-list-link btn btn-outline-light">Solliciteer</a>
                                     <a href="#" class="jobs-list-link btn btn-secondary">Vacature</a>
                                 </div>
                             </div>
@@ -149,7 +149,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                                     <li class="platings-datum">Geplaatst op 07-03-2022</li>
                                 </ul>
                                 <div class="card-holder_btn-container">
-                                    <a href="#" class="jobs-list-link btn btn-outline-secondary">Solliciteer</a>
+                                    <a href="#" class="jobs-list-link btn btn-outline-light">Solliciteer</a>
                                     <a href="#" class="jobs-list-link btn btn-secondary">Vacature</a>
                                 </div>
                             </div>
@@ -167,7 +167,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                                     <li class="platings-datum">Geplaatst op 07-03-2022</li>
                                 </ul>
                                 <div class="card-holder_btn-container">
-                                    <a href="#" class="jobs-list-link btn btn-outline-secondary">Solliciteer</a>
+                                    <a href="#" class="jobs-list-link btn btn-outline-light">Solliciteer</a>
                                     <a href="#" class="jobs-list-link btn btn-secondary">Vacature</a>
                                 </div>
                             </div>
@@ -327,8 +327,9 @@ $container = get_theme_mod( 'understrap_container_type' );
                             Eigenaresse Perfect Onderwijs Match (POM)</p>
                     </div>
                     <div>
-                        <p>06-12345678<br>
-                            Jennifer@perfectonderwijsmatch.nl</p>
+                        <p><a href="tel:06-50749210">06-50749210</a><br>
+                            <a href="mailto:jennifer@perfectonderwijsmatch.nl">Jennifer@perfectonderwijsmatch.nl</a>
+                        </p>
                     </div>
                     <div class="social-holder">
                         <img class="social-icons"

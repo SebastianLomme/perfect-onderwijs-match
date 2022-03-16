@@ -126,7 +126,7 @@
         // text-align: center;
 
         &__content {
-            padding: 2em;
+            padding-block: 2em;
         }
     }
 }
@@ -162,7 +162,7 @@
             // justify-content: space-between;
             background-color: #fff;
             border-radius: 25px;
-            padding: 2em;
+            padding-block: 2em;
             text-align: center;
             height: max-container;
             margin: 12px;
@@ -183,11 +183,17 @@
                 width: 35px;
                 border-radius: 0;
                 cursor: pointer;
+                margin: 25px;
+
+                &:hover,
+                &:active {
+                    transform: scale(1.2);
+                }
             }
 
             .social-holder {
                 display: flex;
-                justify-content: space-evenly;
+                justify-content: center;
                 width: 100%;
             }
 
@@ -197,10 +203,24 @@
             background-color: $primary;
             height: max-container;
             border-radius: 25px;
-            padding: 2em;
+            padding-block: 2em;
             text-align: center;
             color: #fff;
             margin: 12px;
+
+            .wpcf7-form-control {
+                width: 90%;
+                border-radius: 10px;
+                border: none;
+                margin-block: 0.5em;
+                padding: 0.375em;
+            }
+
+            input[type="submit"] {
+                width: fit-content !important;
+                background-color: $secondary !important;
+                color: $light;
+            }
 
             h3 {
                 margin-bottom: 2em;
@@ -209,12 +229,4 @@
             // width: 50%;
         }
     }
-}
-
-.wpcf7-form-control {
-    width: 100%;
-    border-radius: 10px;
-    border: none;
-    margin-block: 0.5em;
-    padding: 0.375em;
 }
