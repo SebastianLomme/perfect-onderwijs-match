@@ -11518,11 +11518,6 @@ body {
   color: #1d1d1b;
   background: #faf7fb;
 }
-@media (min-width: 768px) {
-  body {
-    font-size: 18px;
-  }
-}
 
 h1, .h1,
 h2,
@@ -11530,23 +11525,6 @@ h2,
 h3,
 .h3 {
   font-weight: 700;
-}
-
-h1, .h1,
-h2,
-.h2 {
-  font-size: 32px;
-}
-@media (min-width: 768px) {
-  h1, .h1,
-h2,
-.h2 {
-    font-size: 48px;
-  }
-}
-
-h3, .h3 {
-  font-size: 28px;
 }
 
 nav {
@@ -11840,6 +11818,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   color: #faf7fb;
   border-radius: 25px;
   border: 1px solid;
+  height: 100%;
 }
 .jobs-list-section .card-holder__content {
   height: 100%;
@@ -11854,12 +11833,10 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   margin-bottom: 12px;
 }
 .jobs-list-section .card-holder__title {
-  font-size: 28px;
   padding-top: 1em;
   grid-area: head;
   display: inline-flex;
   justify-content: center;
-  align-items: center;
   text-align: center;
 }
 .jobs-list-section .card-holder_btn-container {
@@ -11874,17 +11851,18 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   height: -moz-fit-content;
   height: fit-content;
 }
-.jobs-list-section .last-card {
-  display: none;
+
+.jobs-list-section-card:nth-of-type(4) {
+  display: none !important;
 }
 @media (min-width: 768px) {
-  .jobs-list-section .last-card {
-    display: block;
+  .jobs-list-section-card:nth-of-type(4) {
+    display: block !important;
   }
 }
 @media (min-width: 992px) {
-  .jobs-list-section .last-card {
-    display: none;
+  .jobs-list-section-card:nth-of-type(4) {
+    display: none !important;
   }
 }
 
@@ -11910,6 +11888,14 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   background-color: #9864a6;
   color: #faf7fb;
   border-radius: 25px;
+  position: relative;
+}
+.main-section .card-holder .number-icon {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  top: -10px;
+  left: -10px;
 }
 .main-section .card-holder__content {
   padding-block: 2em;

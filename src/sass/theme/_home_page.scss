@@ -43,6 +43,7 @@
         color: $light;
         border-radius: 25px;
         border: 1px solid;
+        height: 100%;
 
         &__content {
             height: 100%;
@@ -63,12 +64,12 @@
         }
         &__title {
             // text-align: center;
-            font-size: 28px;
+            // font-size: 28px;
             padding-top: 1em;
             grid-area: head;
             display: inline-flex;
             justify-content: center;
-            align-items: center;
+            // align-items: center;
             text-align: center;
         }
         // margin: 1em;
@@ -85,16 +86,17 @@
             }
         }
     }
-    .last-card {
-        display: none;
+}
 
-        @include for-md {
-            display: block;
-        }
+.jobs-list-section-card:nth-of-type(4) {
+    display: none !important;
 
-        @include for-lg {
-            display: none;
-        }
+    @include for-md {
+        display: block !important;
+    }
+
+    @include for-lg {
+        display: none !important;
     }
 }
 
@@ -123,7 +125,16 @@
         background-color: $primary;
         color: $light;
         border-radius: 25px;
+        position: relative;
         // text-align: center;
+
+        .number-icon {
+            position: absolute;
+            width: 34px;
+            height: 34px;
+            top: -10px;
+            left: -10px;
+        }
 
         &__content {
             padding-block: 2em;

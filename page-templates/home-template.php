@@ -18,7 +18,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 <div class="hero-section">
     <div class="overlay"></div>
     <div class="hero-section__content container">
-        <h1>Vind de Perfecte <span class="text-secondary">match!</span></h1>
+        <h1 class="display-1">Vind de Perfecte <span class="text-secondary">match!</span></h1>
         <a href=# class="btn btn-secondary button">Button</a>
     </div> <!-- hero-section__content -->
 </div> <!-- hero-section -->
@@ -101,78 +101,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 
             <div class="jobs-list-section container">
                 <div class="row">
-                    <div class="jobs-list-section-card col-lg-4 col-md-6">
-                        <div class="card-holder">
-                            <div class="card-holder__content">
-                                <h3 class="card-holder__title">Groepsleerkracht SBO</h3>
-                                <ul class="card-holder__list">
-                                    <li class="location">Noord-Holland</li>
-                                    <li class="studie">HBO</li>
-                                    <li class="opleiding">Speciaal onderwijs</li>
-                                    <li class="ervaring">0-1 jaar ervaring</li>
-                                    <li class="platings-datum">Geplaatst op 07-03-2022</li>
-                                </ul>
-                                <div class="card-holder_btn-container">
-                                    <a href="#" class="jobs-list-link btn btn-outline-light">Solliciteer</a>
-                                    <a href="#" class="jobs-list-link btn btn-secondary">Vacature</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="jobs-list-section-card col-lg-4 col-md-6">
-                        <div class="card-holder">
-                            <div class="card-holder__content">
-                                <h3 class="card-holder__title">Leerkracht schooljaar 2022-2023</h3>
-                                <ul class="card-holder__list">
-                                    <li class="location">Noord-Holland</li>
-                                    <li class="studie">HBO</li>
-                                    <li class="opleiding">Speciaal onderwijs</li>
-                                    <li class="ervaring">0-1 jaar ervaring</li>
-                                    <li class="platings-datum">Geplaatst op 07-03-2022</li>
-                                </ul>
-                                <div class="card-holder_btn-container">
-                                    <a href="#" class="jobs-list-link btn btn-outline-light">Solliciteer</a>
-                                    <a href="#" class="jobs-list-link btn btn-secondary">Vacature</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="jobs-list-section-card col-lg-4 col-md-6">
-                        <div class="card-holder">
-                            <div class="card-holder__content">
-                                <h3 class="card-holder__title">Groepsleerkracht</h3>
-                                <ul class="card-holder__list">
-                                    <li class="location">Noord-Holland</li>
-                                    <li class="studie">HBO</li>
-                                    <li class="opleiding">Speciaal onderwijs</li>
-                                    <li class="ervaring">0-1 jaar ervaring</li>
-                                    <li class="platings-datum">Geplaatst op 07-03-2022</li>
-                                </ul>
-                                <div class="card-holder_btn-container">
-                                    <a href="#" class="jobs-list-link btn btn-outline-light">Solliciteer</a>
-                                    <a href="#" class="jobs-list-link btn btn-secondary">Vacature</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="jobs-list-section-card col-md-6 last-card">
-                        <div class="card-holder">
-                            <div class="card-holder__content">
-                                <h3 class="card-holder__title">Leerkracht schooljaar 2022-2023</h3>
-                                <ul class="card-holder__list">
-                                    <li class="location">Noord-Holland</li>
-                                    <li class="studie">HBO</li>
-                                    <li class="opleiding">Speciaal onderwijs</li>
-                                    <li class="ervaring">0-1 jaar ervaring</li>
-                                    <li class="platings-datum">Geplaatst op 07-03-2022</li>
-                                </ul>
-                                <div class="card-holder_btn-container">
-                                    <a href="#" class="jobs-list-link btn btn-outline-light">Solliciteer</a>
-                                    <a href="#" class="jobs-list-link btn btn-secondary">Vacature</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <?php get_template_part('global-templates/job-listing-card'); ?>
+
                 </div>
                 <div class="row justify-content-center">
                     <a href="#" class="btn btn-secondary">Alle vacatures</a>
@@ -181,9 +111,9 @@ $container = get_theme_mod( 'understrap_container_type' );
             <div class="main-section image-light container-fluid"
                 style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/inc/images/waarom-pom.jpg)">
                 <div class="container">
-                    <div class="title text-center">
+                    <div class="title-primary">
                         <h3>Werving & selectie</h3>
-                        <h3>Speciaal onderwijs (SO/VSO) / Praktijkonderwijs / Basisonderwijs</h3>
+                        <h6>Speciaal onderwijs (SO/VSO) / Praktijkonderwijs / Basisonderwijs</h6>
                         <p>Perfect Onderwijs Match maakt de match tussen leerkracht en school. Dit kan op 2
                             manieren:
                         </p>
@@ -192,8 +122,11 @@ $container = get_theme_mod( 'understrap_container_type' );
                         <div class="col-lg-6 main-section-card">
                             <div class="card-holder">
                                 <div class="card-holder__content">
+                                    <img class="number-icon"
+                                        src="<?php echo get_stylesheet_directory_uri(); ?>/inc/images/number_1.svg)"
+                                        alt="">
                                     <p>
-                                        De school zet een opdracht uit bij Perfect Onderwijs Match en Jennifer gaat
+                                        ➸ De school zet een opdracht uit bij Perfect Onderwijs Match en Jennifer gaat
                                         op
                                         zoek
                                         naar de best passende leerkracht;
@@ -203,21 +136,22 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </div>
                         <div class="col-lg-6 main-section-card">
                             <div class="card-holder">
-                                <div class="card-holder__content">
+                                <div class="card-holder__content rel">
+                                    <img class="number-icon"
+                                        src="<?php echo get_stylesheet_directory_uri(); ?>/inc/images/number_2.svg)"
+                                        alt="">
                                     <p>
-                                        Jennifer heeft een goede leerkracht en gaat op zoek naar de best passende
+                                        ➸ Jennifer heeft een goede leerkracht en gaat op zoek naar de best passende
                                         school.
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="text-center">
+                    <div>
                         <p>Laat je in de werkwijze en persoonlijke benadering vooral verrassen en ga samen de
                             uitdaging
                             aan.
-                        </p>
-                        <p>
                             Uiteraard krijg jij een mooi dienstverband bij de school zelf. Perfect Onderwijs Match
                             bemiddelt
                             tussen de twee partijen.</p>
