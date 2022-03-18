@@ -51,6 +51,7 @@ $container = get_theme_mod( 'understrap_container_type' );
         </button>
 
         <!-- The WordPress Menu goes here -->
+
         <?php
 		wp_nav_menu(
 			array(
@@ -65,6 +66,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			)
 		);
 		?>
+
 
     </div><!-- .container(-fluid) -->
 
