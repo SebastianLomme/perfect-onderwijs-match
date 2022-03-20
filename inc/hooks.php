@@ -31,8 +31,15 @@ if ( ! function_exists( 'perfect_onderwijs_match_add_site_info' ) ) {
 		$url = esc_url(get_site_url());
 		$name = get_bloginfo( 'name' );
 
-		$site_info = sprintf( '<a href="%s">© %s-%s %s</a>', 
-		$url, $copyYear, $currentYear, $name, );
+		if ( $copyYear == $currentYear ) {
+			$site_info = sprintf( '<a href="%s">©%s %s</a>', 
+			$url, $currentYear, $name, );
+		} else {
+			$site_info = sprintf( '<a href="%s">©%s-%s %s</a>', 
+			$url, $copyYear, $currentYear, $name, );
+		}
+
+
 
 		// Check if customizer site info has value.
 		if ( get_theme_mod( 'understrap_site_info_override' ) ) {
