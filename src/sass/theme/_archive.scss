@@ -1,0 +1,26 @@
+#archive-wrapper,
+#single-wrapper,
+#home-page-wrapper {
+    .hero-section {
+        height: 200px;
+    }
+
+    #left-sidebar,
+    #right-sidebar {
+        margin-block: 3em;
+    }
+
+    .table_job_listing {
+        .row {
+            border-bottom: solid 1px $primary;
+        }
+
+        .title_table {
+            font-weight: 700;
+        }
+    }
+}
+
+.archive_section {
+    margin-block: 3em;
+}

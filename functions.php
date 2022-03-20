@@ -101,3 +101,9 @@ $understrap_includes = array(
 foreach ( $understrap_includes as $file ) {
 	require_once get_theme_file_path( $understrap_inc_dir . $file );
 }
+
+
+function wpdocs_remove_archive_title_prefixes( $title, $original_title ) { 
+    return $original_title; 
+} 
+add_filter( 'get_the_archive_title', 'wpdocs_remove_archive_title_prefixes', 10, 2 );

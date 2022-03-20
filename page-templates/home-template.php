@@ -10,6 +10,7 @@
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
 
+
 get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 
@@ -19,7 +20,7 @@ $container = get_theme_mod( 'understrap_container_type' );
     <div class="overlay"></div>
     <div class="hero-section__content container">
         <h1 class="display-1">Vind de Perfecte <span class="text-secondary">match!</span></h1>
-        <a href="#" class="btn btn-secondary call-btn"><img class="mx-2"
+        <a href="<?php echo get_site_url() . '/contact'; ?>" class="btn btn-secondary call-btn"><img class="mx-2"
                 src="<?php echo get_stylesheet_directory_uri(); ?>/inc/images/telefoon.svg)" alt="" width="15px"
                 height="15px">Bel me terug</a>
 
@@ -108,7 +109,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 
                 </div>
                 <div class="row justify-content-center">
-                    <a href="#" class="btn btn-secondary">Alle vacatures</a>
+                    <a href="<?php echo get_post_type_archive_link("add_job_listing_type"); ?>"
+                        class="btn btn-secondary">Alle
+                        vacatures</a>
                 </div>
             </div>
             <div class="main-section image-light container-fluid"
@@ -125,9 +128,9 @@ $container = get_theme_mod( 'understrap_container_type' );
                         <div class="col-lg-6 main-section-card">
                             <div class="card-holder">
                                 <div class="card-holder__content">
-                                    <img class="number-icon"
+                                    <!-- <img class="number-icon"
                                         src="<?php echo get_stylesheet_directory_uri(); ?>/inc/images/number_1.svg)"
-                                        alt="">
+                                        alt=""> -->
                                     <p>
                                         ➸ De school zet een opdracht uit bij Perfect Onderwijs Match en Jennifer gaat
                                         op
@@ -140,9 +143,9 @@ $container = get_theme_mod( 'understrap_container_type' );
                         <div class="col-lg-6 main-section-card">
                             <div class="card-holder">
                                 <div class="card-holder__content rel">
-                                    <img class="number-icon"
+                                    <!-- <img class="number-icon"
                                         src="<?php echo get_stylesheet_directory_uri(); ?>/inc/images/number_2.svg)"
-                                        alt="">
+                                        alt=""> -->
                                     <p>
                                         ➸ Jennifer heeft een goede leerkracht en gaat op zoek naar de best passende
                                         school.
@@ -269,20 +272,24 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </p>
                     </div>
                     <div class="social-holder">
-                        <img class="social-icons"
-                            src="<?php echo get_stylesheet_directory_uri(); ?>/inc/images/facebook.svg" alt="">
-                        <img class="social-icons"
-                            src="<?php echo get_stylesheet_directory_uri(); ?>/inc/images/instagram.svg" alt="">
-                        <img class="social-icons"
-                            src="<?php echo get_stylesheet_directory_uri(); ?>/inc/images/linked-in.svg" alt="">
+                        <a href="https://www.facebook.com/Perfect-Onderwijs-Match-111197571422737/">
+                            <img class="social-icons"
+                                src="<?php echo get_stylesheet_directory_uri(); ?>/inc/images/facebook.svg" alt="">
+                        </a>
+                        <a href="https://instagram.com/perfect.onderwijs.match">
+                            <img class="social-icons"
+                                src="<?php echo get_stylesheet_directory_uri(); ?>/inc/images/instagram.svg" alt="">
+                        </a>
+                        <a
+                            href="https://nl.linkedin.com/company/perfect-onderwijs-match?trk=public_profile_topcard-current-company">
+                            <img class="social-icons"
+                                src="<?php echo get_stylesheet_directory_uri(); ?>/inc/images/linked-in.svg" alt="">
+                        </a>
                         <!-- </div> -->
                     </div>
 
                 </div>
-                <div class="contact-info-form">
-                    <h3>Vul onderstaand formulier in en we bellen je z.s.m. terug!</h3>
-                    <?php echo do_shortcode('[contact-form-7 id="88" title="Contactformulier 1"]'); ?>
-                </div>
+                <?php echo get_template_part('global-templates/contact-form'); ?>
 
             </div>
 

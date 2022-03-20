@@ -52,7 +52,7 @@
                 "head"
                 "main"
                 "foot";
-            grid-template-rows: 135px auto 80px;
+            grid-template-rows: auto auto 80px;
         }
 
         &__list {
@@ -137,7 +137,11 @@
         }
 
         &__content {
-            padding-block: 2em;
+            padding-block: 0.5em;
+
+            p {
+                margin-bottom: 0 !important;
+            }
         }
     }
 }
@@ -216,25 +220,31 @@
             border-radius: 25px;
             padding-block: 2em;
             text-align: center;
-            color: #fff;
+            // color: #fff;
             margin: 12px;
 
-            .wpcf7-form-control {
+            form {
                 width: 90%;
-                border-radius: 10px;
-                border: none;
-                margin-block: 0.5em;
-                padding: 0.375em;
+                margin-inline: auto;
             }
 
-            input[type="submit"] {
-                width: fit-content !important;
-                background-color: $secondary !important;
-                color: $light;
-            }
+            // .wpcf7-form-control {
+            //     width: 90%;
+            //     border-radius: 10px;
+            //     border: none;
+            //     margin-block: 0.5em;
+            //     padding: 0.375em;
+            // }
+
+            // input[type="submit"] {
+            //     width: fit-content !important;
+            //     background-color: $secondary !important;
+            //     color: $light;
+            // }
 
             h3 {
                 margin-bottom: 2em;
+                color: #fff;
             }
 
             // width: 50%;
@@ -245,3 +255,23 @@
     display: inline-flex;
     align-items: center;
 }
+
+// .custom-file-input::-webkit-file-upload-button {
+//     visibility: hidden;
+// }
+// .custom-file-input::before {
+//     content: "tests";
+//     display: inline-block;
+//     outline: none;
+//     white-space: nowrap;
+//     -webkit-user-select: none;
+//     cursor: pointer;
+//     font-weight: 700;
+//     font-size: 10pt;
+// }
+// .custom-file-input:hover::before {
+//     border-color: black;
+// }
+// .custom-file-input:active::before {
+//     background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+// }
