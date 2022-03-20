@@ -11970,6 +11970,9 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   width: 90%;
   margin-inline: auto;
 }
+.contact-us-section .contact-info-form form .form-floating > label {
+  padding-top: 0.125em;
+}
 .contact-us-section .contact-info-form h3, .contact-us-section .contact-info-form .h3 {
   margin-bottom: 2em;
   color: #fff;

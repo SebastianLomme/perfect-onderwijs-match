@@ -225,6 +225,10 @@
             form {
                 width: 90%;
                 margin-inline: auto;
+
+                .form-floating > label {
+                    padding-top: 0.125em;
+                }
             }
 
             // .wpcf7-form-control {
