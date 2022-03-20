@@ -11964,7 +11964,6 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   height: max-container;
   border-radius: 25px;
   padding-block: 2em;
-  text-align: center;
   margin: 12px;
 }
 .contact-us-section .contact-info-form form {
@@ -11974,6 +11973,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 .contact-us-section .contact-info-form h3, .contact-us-section .contact-info-form .h3 {
   margin-bottom: 2em;
   color: #fff;
+  text-align: center;
 }
 
 .call-btn {
