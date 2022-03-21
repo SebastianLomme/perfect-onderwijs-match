@@ -220,7 +220,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
             </div>
             <div class="main-section image-light container-fluid"
-                style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/inc/images/waarom-pom.jpg)">
+                style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/inc/images/achtergrond-stoel.webp)">
                 <div class="container">
                     <div class="title text-center">
                         <h3>Coaching, scholing en voorlichting</h3>
