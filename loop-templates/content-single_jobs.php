@@ -12,8 +12,6 @@ defined( 'ABSPATH' ) || exit;
 <article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 
 
-    <?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
-
     <div class="entry-content">
 
         <?php
@@ -24,18 +22,27 @@ defined( 'ABSPATH' ) || exit;
 		?>
 
 
-        <div class="container table_job_listing">
-            <div class="row p-2">
-                <div class="col-md-4 title_table">Startdatum</div>
-                <div class="col-md-8"><?php echo get_field("startdatum"); ?></div>
-            </div>
-            <div class="row p-2">
-                <div class="col-md-4 title_table">Einddatum</div>
-                <div class="col-md-8"><?php echo get_field("startdatum"); ?></div>
-            </div>
-            <div class="row p-2">
-                <div class="col-md-4 title_table">Opdrachtgever</div>
-                <div class="col-md-8"><?php echo get_field("opdrachtgever"); ?></div>
+
+
+        <div class="containe-fluid table_job_listing">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="row p-2">
+                        <div class="col-md title_table">Startdatum</div>
+                        <div class="col-md"><?php echo get_field("startdatum"); ?></div>
+                    </div>
+                    <div class="row p-2">
+                        <div class="col-md title_table">Einddatum</div>
+                        <div class="col-md"><?php echo get_field("startdatum"); ?></div>
+                    </div>
+                    <div class="row p-2">
+                        <div class="col-md title_table">Opdrachtgever</div>
+                        <div class="col-md"><?php echo get_field("opdrachtgever"); ?></div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
+                </div>
             </div>
             <div class="row p-2">
                 <div class="col-md-4 title_table">Wat verwachten we van je</div>

@@ -24,7 +24,7 @@ $container = get_theme_mod( 'understrap_container_type' );
         </div> <!-- hero-section__content -->
     </div> <!-- hero-section -->
 
-    <div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
+    <div class="container-fluid" id="content" tabindex="-1">
 
         <div class="row">
             <!-- Do the left sidebar check -->
@@ -42,7 +42,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						?>
                 </header><!-- .page-header -->
 
-                <div class="jobs-list-section container">
+                <div class="jobs-list-section container-fluid">
                     <div class="row">
                         <?php
 					// Start the loop.

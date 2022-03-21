@@ -2,14 +2,14 @@
 /**
  * Post rendering content according to caller of get_template_part
  *
- * @package Understrap
+ * @package Perfect onderwijs match
  */
 
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
 ?>
 
-<div class="jobs-list-section-card col-lg-6">
+<div class="jobs-list-section-card col-lg-4">
     <div class="card-holder">
         <div class="card-holder__content">
             <h4 class="card-holder__title"><?php the_title(); ?></h4>
