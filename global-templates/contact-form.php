@@ -40,8 +40,15 @@ defined( 'ABSPATH' ) || exit;
             <label class="input-group-text" for="inputGroupFile01">Upload</label>
             <input type="file" class="form-control" id="inputGroupFile01" data-buttonText="kies bestand">
         </div> -->
-        <div class="input-group mb-3">
+        <!-- <p>Upload Cv of motivatie brief</p> -->
+        <!-- <div class="input-group mb-3">
+
             <input type="file" class="custom-file-input">
+        </div> -->
+
+        <div class="mb-3">
+            <label for="formFileSm" class="form-label">Upload Cv of motivatie brief</label>
+            <input class="form-control form-control-sm" id="formFileSm" type="file">
         </div>
 
         <button type="submit" class="btn btn-secondary mb-3">Bel me terug</button>
