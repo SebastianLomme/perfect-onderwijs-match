@@ -107,3 +107,24 @@ function wpdocs_remove_archive_title_prefixes( $title, $original_title ) {
     return $original_title; 
 } 
 add_filter( 'get_the_archive_title', 'wpdocs_remove_archive_title_prefixes', 10, 2 );
+
+// function remove_plugin_controls($actions, $plugin_file, $plugin_data, $context) {
+
+
+// 	if (array_key_exists('edit', $actions)) {
+// 		unset( $actions['edit']);
+// 	}
+// 	if (array_key_exists('deactivate', $actions)) {
+// 		unset( $actions['deactivate']);
+// 	}
+// 	if (array_key_exists('activate', $actions)) {
+// 		unset( $actions['activate']);
+// 	}
+// 	if (array_key_exists('delete', $actions)) {
+// 		unset( $actions['delete']);
+// 	}
+// 	return $actions;
+
+// }
+
+// add_filter('plugin_action_links', 'remove_plugin_controls', 10, 4);
