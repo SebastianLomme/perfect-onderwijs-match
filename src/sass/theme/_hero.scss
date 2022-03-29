@@ -10,13 +10,14 @@
     justify-content: center;
     align-items: center;
     color: $light;
+    margin-top: 66px;
 
     @include for-md {
         height: 390px;
     }
 
     @include for-lg {
-        height: 650px;
+        height: 450px;
     }
 
     .overlay {

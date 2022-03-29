@@ -109,3 +109,14 @@ nav {
         }
     }
 }
+
+.menu-item-120 {
+    @extend .btn;
+    @extend .btn-outline-secondary;
+    width: fit-content;
+    padding: 0;
+}
+
+.navbar-nav {
+    align-items: center;
+}

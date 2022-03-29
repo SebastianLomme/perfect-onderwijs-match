@@ -53,7 +53,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </p>
                     </div> <!-- /info-section__body -->
                     <div class=" col-md-6 order-md-0 d-flex align-items-center">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/inc/images/wie-ben-ik.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/inc/images/wie-is-pom.jpg" alt="">
                     </div>
                 </div> <!-- /row -->
 
@@ -81,7 +81,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </p>
                     </div>
                     <div class="col-md-6 d-flex align-items-center">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/inc/images/wie-is-pom.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/inc/images/wie-ben-ik.jpg" alt="">
                     </div>
 
                 </div>
