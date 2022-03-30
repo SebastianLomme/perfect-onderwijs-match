@@ -2,7 +2,7 @@
     "name": "holger1411/understrap-child",
     "description": "Basic Child Theme for Understrap Theme Framework",
     "type": "library",
-    "license": "GPL-2.0",
+    "license": "GPL-2.0-or-later",
     "minimum-stability": "stable",
     "require": {},
     "keywords": ["wordpress","theme","bootstrap"],
