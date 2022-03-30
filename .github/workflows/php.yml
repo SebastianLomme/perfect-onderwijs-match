@@ -45,6 +45,6 @@ jobs:
                   script: |
                       cd /var/www/html/wp-content/themes/perfect-onderwijs-match/
                       pwd
-                      git pull
+                      git pull git@github.com:SebastianLomme/perfect-onderwijs-match.git
                       cd
                       systemctl restart apache2.service

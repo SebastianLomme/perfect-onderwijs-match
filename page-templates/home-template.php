@@ -23,6 +23,7 @@ $container = get_theme_mod( 'understrap_container_type' );
         <a href="<?php echo get_site_url() . '/contact'; ?>" class="btn btn-secondary call-btn"><img class="mx-2"
                 src="<?php echo get_stylesheet_directory_uri(); ?>/inc/images/telefoon.svg)" alt="" width="15px"
                 height="15px">Bel me terug</a>
+        <a href="<?php echo get_site_url() . '/vacatures'; ?>" class="btn btn-secondary call-btn">Alle vacatures</a>
 
     </div> <!-- hero-section__content -->
 </div> <!-- hero-section -->
