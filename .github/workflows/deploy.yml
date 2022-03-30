@@ -27,9 +27,9 @@ jobs:
             - name: Install dependencies
               run: composer install --prefer-dist --no-progress
 
-        name: Run build script
-        uses: appleboy/ssh-action@master
-        with:
+        - name: Run build script
+          uses: appleboy/ssh-action@master
+          with:
             host: ${{secrets.IP_SERVER}}
             username: ${{secrets.USERNAME}}
             key: ${{secrets.SECRET_KEY}}
