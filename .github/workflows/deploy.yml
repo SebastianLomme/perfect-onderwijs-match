@@ -7,24 +7,24 @@ on:
     pull_request:
         branches: [master]
 
-jobs:
-    build:
-        runs-on: ubuntu-latest
+    jobs:
+        build:
+            runs-on: ubuntu-latest
 
-        steps:
-        - uses: actions/checkout@v3
+            steps:
+            - uses: actions/checkout@v3
 
-        - name: Install dependencies
-        run: composer install --prefer-dist --no-progress
-        - name: Run build script
-        uses: appleboy/ssh-action@master
-        with:
-            host: ${{secrets.IP_SERVER}}
-            username: ${{secrets.USERNAME}}
-            key: ${{secrets.SECRET_KEY}}
-            port: 22
-            script: |
-                cd /var/www/html/wp-content/themes/perfect-onderwijs-match/
-                git pull
-                cd
-                systemctl restart apache2.service
+            - name: Install dependencies
+            run: composer install --prefer-dist --no-progress
+            - name: Run build script
+            uses: appleboy/ssh-action@master
+            with:
+                host: ${{secrets.IP_SERVER}}
+                username: ${{secrets.USERNAME}}
+                key: ${{secrets.SECRET_KEY}}
+                port: 22
+                script: |
+                    cd /var/www/html/wp-content/themes/perfect-onderwijs-match/
+                    git pull
+                    cd
+                    systemctl restart apache2.service
