@@ -110,7 +110,8 @@ nav {
     }
 }
 
-.menu-item-120 {
+.menu-item-120,
+.menu-item-66 {
     @extend .btn;
     @extend .btn-outline-secondary;
     width: fit-content;
