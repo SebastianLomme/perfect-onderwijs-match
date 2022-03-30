@@ -43,14 +43,10 @@ $container = get_theme_mod( 'understrap_container_type' );
                             speciaal onderwijs (SO/VSO) en Praktijkonderwijs.
                         </p>
                         <p>
-                            De afgelopen jaren ben ik veel leerkrachten tegengekomen die niet op de juiste plek zitten,
-                            denk aan de verkeerde inschatting van de doelgroep of het systeem van de school waar ze niet
-                            aan kunnen wennen. Ook merk ik dat scholen het soms lastig vinden om de Perfecte match te
-                            vinden.
-                        </p>
-                        <p>
                             Omdat ik veel op de werkvloer te vinden ben weet ik van beide kanten wat er nodig is voor
-                            een perfecte match. 
+                            een perfecte match. Mijn betrokkenheid, persoonlijke aanpak en jij als persoon staan
+                            centraal in mijn dienstverlening. Wil je echt gelukkig zijn in je werk en ben je benieuwd
+                            naar mijn werkwijze, ik vertel je er graag meer over.  
                         </p>
                     </div> <!-- /info-section__body -->
                     <div class=" col-md-6 order-md-0 d-flex align-items-center">
@@ -67,8 +63,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                             Sinds 2013 werk ik – Jennifer – in het onderwijs. Daarnaast ben ik getrouwd en moeder van 2
                             kinderen. Ik ben gestart in het regulier onderwijs en na een aantal jaren overgestapt naar
                             het speciaal onderwijs. Daar heb ik mijn hart verloren aan de leerlingen! Het speciaal
-                            onderwijs is voor mij een warme plek waar ik graag ben. Mijn enorme portie geduld en liefde
-                            voor deze leerlingen is mijn kracht.
+                            onderwijs is voor mij een warme plek waar ik graag ben.
                         </p>
                         <p>
                             Sinds een aantal jaar werk ik als Ambulant Begeleider expertise cluster 3 (zeer moeilijk
