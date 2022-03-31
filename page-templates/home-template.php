@@ -40,7 +40,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                         <h3 class="title">Daarom kies jij voor Perfect Onderwijs Match!</h3>
                         <p>
                             Voor scholen en leerkrachten ga ik op zoek naar de perfecte match in het basisonderwijs/
-                            speciaal onderwijs (SO/VSO) en Praktijkonderwijs.
+                            speciaal onderwijs en Praktijkonderwijs.
                         </p>
                         <p>
                             Omdat ik veel op de werkvloer te vinden ben weet ik van beide kanten wat er nodig is voor

@@ -3,38 +3,60 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
-                <div class="card">
+                <div class="card bg-light">
                     <div class="card-body">
-                        <h5 class="card-title">Werving & Selectie</h5>
+
+                        <h3 class="card-title">Werving & Selectie</h3>
                         <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <a href="#" class="card-link">Lees meer...</a>
+                        <div class="row">
+                            <div class="col-sm card_body_col">
+                                <h5 class="card-subtitle mb-2 text-muted">Opdrachtgever</h5>
+                                <p class="card-text">POM gaat op zoek of heeft een ervaren kandidaat beschikbaar.</p>
+                                <a href="#" class="card-link">Lees meer...</a>
+                            </div>
+                            <div class="col-sm card_body_col">
+                                <h5 class="card-subtitle mb-2 text-muted">Kandidaat</h5>
+                                <p class="card-text">POM heeft de baan die bij jou past. Hebben we die nu niet? Samen op
+                                    zoek.</p>
+                                <a href="#" class="card-link">Lees meer...</a>
+                            </div>
+
+                        </div>
+
+
                     </div>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="card bg-light">
                     <div class="card-body">
-                        <h5 class="card-title">Werving & Selectie</h5>
+                        <h3 class="card-title">ZZP</h3>
                         <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <a href="#" class="card-link ">Professional</a>
-                        <a href="#" class="card-link">Opdrachtgever</a>
+                        <p class="card-text">Wil je afwisseling in opdrachten? of je rugzak positief vullen en
+                            inspringen op de momenten dat een school jou nodig heeft?</p>
+                        <a href="#" class="card-link ">Lees meer...</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="card">
+                <div class="card bg-light">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h3 class="card-title">Scholing & Coaching</h3>
                         <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
+                        <p class="card-text">
+                        <ul>
+                            <li>
+                                Coaching aan leerkrachten: moeilijke hulpvragen cluster 3/4
+                            </li>
+                            <li>Scholing & voorlichting: heb je een specifieke scholingsvraag?</li>
+                            <ul>
+                                <li>Ass</li>
+                                <li>Gedrag</li>
+                                <li>ADHD</li>
+                                <li>etc</li>
+                            </ul>
+                        </ul>
+                        </p>
                         <a href="#" class="card-link">Card link</a>
                         <a href="#" class="card-link">Another link</a>
                     </div>

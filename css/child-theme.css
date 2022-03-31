@@ -11612,10 +11612,6 @@ h3,
   font-weight: 700;
 }
 
-.wrapper {
-  margin-top: 42px;
-}
-
 nav {
   font-weight: 700;
   font-size: 18px;
@@ -11687,7 +11683,6 @@ nav .current-menu-item .nav-link {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  padding: 0;
 }
 
 .navbar-nav {
@@ -11706,6 +11701,7 @@ nav .current-menu-item .nav-link {
   justify-content: center;
   align-items: center;
   color: #faf7fb;
+  margin-top: 66px;
 }
 @media (min-width: 768px) {
   .hero-section {
