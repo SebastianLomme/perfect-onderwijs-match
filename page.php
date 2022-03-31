@@ -19,14 +19,18 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 ?>
 
-<div class="wrapper" id="page-wrapper">
-
-    <div class="hero-section">
+<div class="hero-section">
         <div class="overlay"></div>
         <div class="hero-section__content container">
             <?php the_title( '<h1 class="page-title">', '</h1>' ); ?>
         </div> <!-- hero-section__content -->
     </div> <!-- hero-section -->
+
+	
+
+<div class="wrapper" id="page-wrapper">
+
+
 
     <div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
 

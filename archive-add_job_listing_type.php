@@ -14,15 +14,20 @@ get_header();
 
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
+<div class="hero-section">
+    <div class="overlay"></div>
+    <div class="hero-section__content container">
+        <?php the_archive_title( '<h1 class="page-title">', '</h1>' ); ?>
+    </div> <!-- hero-section__content -->
+</div> <!-- hero-section -->
+
+
+
+
 
 <div class="wrapper" id="archive-wrapper">
 
-    <div class="hero-section">
-        <div class="overlay"></div>
-        <div class="hero-section__content container">
-            <?php the_archive_title( '<h1 class="page-title">', '</h1>' ); ?>
-        </div> <!-- hero-section__content -->
-    </div> <!-- hero-section -->
+
 
     <div class="container-fluid" id="content" tabindex="-1">
 
