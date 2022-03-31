@@ -2,9 +2,9 @@
 #single-wrapper,
 #home-page-wrapper,
 #page-wrapper {
-    .hero-section {
-        height: 200px;
-    }
+    // .hero-section {
+    //     height: 200px;
+    // }
 
     #left-sidebar,
     #right-sidebar {
@@ -24,4 +24,8 @@
 
 .archive_section {
     margin-block: 3em;
+}
+
+.hero-section__small {
+    height: 200px;
 }
