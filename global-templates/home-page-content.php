@@ -2,8 +2,8 @@
     style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/inc/images/waarom-pom.jpg)">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4">
-                <div class="card bg-light">
+            <div class="col-lg-4 mb-2 ">
+                <div class="card bg-light m-2">
                     <div class="card-body">
 
                         <h3 class="card-title">Werving & Selectie</h3>
@@ -31,8 +31,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
-                <div class="card bg-light">
+            <div class="col-lg-4  col-md-6 mb-2">
+                <div class="card bg-light m-2">
                     <div class="card-body">
                         <h3 class="card-title">ZZP</h3>
                         <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
@@ -44,8 +44,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
-                <div class="card bg-light">
+            <div class="col-lg-4  col-md-6 mb-2">
+                <div class="card bg-light m-2">
                     <div class="card-body">
                         <h3 class="card-title">Scholing & Coaching</h3>
                         <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
