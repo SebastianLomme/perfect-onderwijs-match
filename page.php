@@ -24,7 +24,7 @@ $container = get_theme_mod( 'understrap_container_type' );
     <div class="hero-section">
         <div class="overlay"></div>
         <div class="hero-section__content container">
-            <?php the_archive_title( '<h1 class="page-title">', '</h1>' ); ?>
+            <?php the_title( '<h1 class="page-title">', '</h1>' ); ?>
         </div> <!-- hero-section__content -->
     </div> <!-- hero-section -->
 
