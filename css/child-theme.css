@@ -11684,6 +11684,7 @@ nav .current-menu-item .nav-link {
   width: -moz-fit-content;
   width: fit-content;
   padding: 0;
+  margin-left: 0.5rem;
 }
 
 .navbar-nav {
