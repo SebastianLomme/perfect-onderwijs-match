@@ -11683,6 +11683,7 @@ nav .current-menu-item .nav-link {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  padding: 0;
 }
 
 .navbar-nav {
@@ -12086,6 +12087,15 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 .call-btn {
   display: inline-flex;
   align-items: center;
+}
+
+.card {
+  border-radius: 25px;
+  height: 100%;
+}
+
+.card-text {
+  padding-bottom: 1rem;
 }
 
 #archive-wrapper .hero-section,

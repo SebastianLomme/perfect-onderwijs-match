@@ -11,14 +11,18 @@
                         <div class="row">
                             <div class="col-sm card_body_col">
                                 <h5 class="card-subtitle mb-2 text-muted">Opdrachtgever</h5>
-                                <p class="card-text">POM gaat op zoek of heeft een ervaren kandidaat beschikbaar.</p>
-                                <a href="#" class="card-link">Lees meer...</a>
+                                <p class="card-text">POM gaat op zoek of heeft een ervaren kandidaat beschikbaar.
+                                    <a href="#" class="card-link d-block">Lees meer...</a>
+                                </p>
+
                             </div>
                             <div class="col-sm card_body_col">
                                 <h5 class="card-subtitle mb-2 text-muted">Kandidaat</h5>
                                 <p class="card-text">POM heeft de baan die bij jou past. Hebben we die nu niet? Samen op
-                                    zoek.</p>
-                                <a href="#" class="card-link">Lees meer...</a>
+                                    zoek.
+                                    <a href="#" class="card-link d-block">Lees meer...</a>
+                                </p>
+
                             </div>
 
                         </div>
@@ -33,8 +37,10 @@
                         <h3 class="card-title">ZZP</h3>
                         <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
                         <p class="card-text">Wil je afwisseling in opdrachten? of je rugzak positief vullen en
-                            inspringen op de momenten dat een school jou nodig heeft?</p>
-                        <a href="#" class="card-link ">Lees meer...</a>
+                            inspringen op de momenten dat een school jou nodig heeft?
+                            <a href="#" class="card-link d-block">Lees meer...</a>
+                        </p>
+
                     </div>
                 </div>
             </div>
@@ -43,8 +49,7 @@
                     <div class="card-body">
                         <h3 class="card-title">Scholing & Coaching</h3>
                         <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-                        <p class="card-text">
-                        <ul>
+                        <ul class="card-text">
                             <li>
                                 Coaching aan leerkrachten: moeilijke hulpvragen cluster 3/4
                             </li>
@@ -55,10 +60,11 @@
                                 <li>ADHD</li>
                                 <li>etc</li>
                             </ul>
+                            <a href="#" class="card-link d-block">Lees meer...</a>
                         </ul>
-                        </p>
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
+
+
+
                     </div>
                 </div>
             </div>

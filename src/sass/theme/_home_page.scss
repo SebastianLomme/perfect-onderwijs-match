@@ -279,3 +279,12 @@
 // .custom-file-input:active::before {
 //     background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
 // }
+
+.card {
+    border-radius: 25px;
+    height: 100%;
+}
+
+.card-text {
+    padding-bottom: 1rem;
+}
