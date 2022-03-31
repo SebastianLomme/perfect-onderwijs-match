@@ -12101,7 +12101,8 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 
 #archive-wrapper .hero-section,
 #single-wrapper .hero-section,
-#home-page-wrapper .hero-section {
+#home-page-wrapper .hero-section,
+#page-wrapper .hero-section {
   height: 200px;
 }
 #archive-wrapper #left-sidebar,
@@ -12109,12 +12110,15 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 #single-wrapper #left-sidebar,
 #single-wrapper #right-sidebar,
 #home-page-wrapper #left-sidebar,
-#home-page-wrapper #right-sidebar {
+#home-page-wrapper #right-sidebar,
+#page-wrapper #left-sidebar,
+#page-wrapper #right-sidebar {
   margin-block: 3em;
 }
 #archive-wrapper .table_job_listing .title_table,
 #single-wrapper .table_job_listing .title_table,
-#home-page-wrapper .table_job_listing .title_table {
+#home-page-wrapper .table_job_listing .title_table,
+#page-wrapper .table_job_listing .title_table {
   font-weight: 700;
 }
 
