@@ -12,7 +12,8 @@
                             <div class="col-sm card_body_col">
                                 <h5 class="card-subtitle mb-2 text-muted">Opdrachtgever</h5>
                                 <p class="card-text">POM gaat op zoek of heeft een ervaren kandidaat beschikbaar.
-                                    <a href="#" class="card-link d-block">Lees meer...</a>
+                                    <a href="<?php echo get_site_url() . '/opdrachtgevers'; ?>"
+                                        class="card-link d-block">Lees meer...</a>
                                 </p>
 
                             </div>
@@ -20,7 +21,8 @@
                                 <h5 class="card-subtitle mb-2 text-muted">Kandidaat</h5>
                                 <p class="card-text">POM heeft de baan die bij jou past. Hebben we die nu niet? Samen op
                                     zoek.
-                                    <a href="#" class="card-link d-block">Lees meer...</a>
+                                    <a href="<?php echo get_site_url() . '/onderwijsprofessional'; ?>"
+                                        class="card-link d-block">Lees meer...</a>
                                 </p>
 
                             </div>
@@ -38,9 +40,11 @@
                         <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
                         <p class="card-text">Wil je afwisseling in opdrachten? of je rugzak positief vullen en
                             inspringen op de momenten dat een school jou nodig heeft?
-                            <a href="#" class="card-link d-block">Lees meer...</a>
+                            <hr>
+                            Wil je gaan werken als zzp'er maar wil je meer info?
+                            <a href="<?php echo get_site_url() . '/onderwijsprofessional'; ?>"
+                                class="card-link d-block">Lees meer...</a>
                         </p>
-
                     </div>
                 </div>
             </div>
@@ -60,7 +64,8 @@
                                 <li>ADHD</li>
                                 <li>etc</li>
                             </ul>
-                            <a href="#" class="card-link d-block">Lees meer...</a>
+                            <a href="<?php echo get_site_url() . '/opdrachtgevers'; ?>" class="card-link d-block">Lees
+                                meer...</a>
                         </ul>
 
 
