@@ -11683,8 +11683,14 @@ nav .current-menu-item .nav-link {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  padding: 0;
   margin-left: 0.5rem;
+  padding-block: 0;
+}
+@media (min-width: 768px) {
+  .menu-item-120,
+.menu-item-66 {
+    padding: 0;
+  }
 }
 
 .navbar-nav {
@@ -12042,7 +12048,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 }
 .contact-us-section .contact-info-card img {
   border-radius: 50%;
-  width: 50%;
+  width: 30%;
   margin-bottom: 2em;
   -o-object-fit: cover;
   object-fit: cover;
