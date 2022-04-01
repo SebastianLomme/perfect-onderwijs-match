@@ -13,7 +13,7 @@ defined( 'ABSPATH' ) || exit;
 
 <div class="contact-info-form">
     <h3>Vul onderstaand formulier in en we bellen je z.s.m. terug!</h3>
-    <!-- <?php echo do_shortcode('[contact-form-7 id="88" title="Contactformulier 1"]'); ?> -->
+    <!-- <?php echo do_shortcode('[contact-form-7 id="9" title="Contactformulier 1"]'); ?> -->
     <form>
         <div class="form-floating mb-3">
             <input type="text" class="form-control" id="floatingInput" placeholder="Naam*">
