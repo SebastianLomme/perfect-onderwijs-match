@@ -12158,5 +12158,15 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   justify-content: center;
   align-items: center;
 }
+.img-btn-holder .btn, .img-btn-holder .menu-item-120,
+.img-btn-holder .menu-item-66 {
+  display: none;
+}
+@media (min-width: 992px) {
+  .img-btn-holder .btn, .img-btn-holder .menu-item-120,
+.img-btn-holder .menu-item-66 {
+    display: block;
+  }
+}
 
 /*# sourceMappingURL=child-theme.css.map */

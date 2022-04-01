@@ -24,4 +24,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    .btn {
+        display: none;
+
+        @include for-lg {
+            display: block;
+        }
+    }
+    
+
+
+
+
+
 }

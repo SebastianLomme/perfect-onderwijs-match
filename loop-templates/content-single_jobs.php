@@ -19,7 +19,7 @@ defined( 'ABSPATH' ) || exit;
                 <p>Maastricht | 40 uur per week</p>
             </div>
             <div class="row">
-                <div class="col-md-9">
+                <div class="col-lg-9">
                     <div class="row">
                         <div class="col-md-4">
                             <p class="title_jobs_list">Voor Wie</p>
@@ -56,7 +56,7 @@ defined( 'ABSPATH' ) || exit;
                     <hr>
                 </div> <!-- end col-9 -->
 
-                <div class="col-md-3 text-center">
+                <div class="col-lg-3 text-center">
                     <div class="img-btn-holder">
                         <img class="round-image"
                             src="<?php echo get_stylesheet_directory_uri(); ?>/inc/images/contact-ons.webp" alt="">
