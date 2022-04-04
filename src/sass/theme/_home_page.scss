@@ -304,9 +304,7 @@
 }
 
 
-.wp-block-table {
-    th {
+.wp-block-table.is-style-regular th {
         background: $primary;
         color: $light;
-    }
 }
