@@ -62,7 +62,8 @@ function pom_render_block_job($title, $field) {
             </div>
 
             <div class="contact-us-section">
-                <?php echo get_template_part('global-templates/contact-form-job-listing'); ?></div>
+                <?php echo get_template_part('global-templates/contact-form-job-listing'); ?>
+            </div>
 
 
 

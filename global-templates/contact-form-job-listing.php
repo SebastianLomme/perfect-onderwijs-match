@@ -11,7 +11,7 @@ defined( 'ABSPATH' ) || exit;
 ?>
 
 
-<div class="contact-info-form " id="contact-form-jobs">
+<div class="contact-info-form w-100" id="contact-form-jobs">
     <h3>Solliciteer direct op deze functie!</h3>
     <form>
         <div class="form-floating mb-3">
