@@ -12119,8 +12119,8 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   }
 }
 
-.wp-block-table th {
-  background: #9864a6;
+.wp-block-table.is-style-regular th {
+  background: #9864a6 !important;
   color: #faf7fb;
 }
 
