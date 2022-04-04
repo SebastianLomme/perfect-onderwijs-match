@@ -12119,6 +12119,11 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   }
 }
 
+.wp-block-table th {
+  background: #9864a6;
+  color: #faf7fb;
+}
+
 #archive-wrapper #left-sidebar,
 #archive-wrapper #right-sidebar,
 #single-wrapper #left-sidebar,
