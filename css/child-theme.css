@@ -12157,6 +12157,9 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 66px;
 }
 .img-btn-holder .btn, .img-btn-holder .menu-item-120,
 .img-btn-holder .menu-item-66 {

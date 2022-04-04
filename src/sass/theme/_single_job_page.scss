@@ -24,6 +24,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: sticky;
+    top: 66px;
     .btn {
         display: none;
 
