@@ -288,3 +288,18 @@
 .card-text {
     padding-bottom: 1rem;
 }
+
+
+.image-card {
+    // aspect-ratio: 16/9;
+    width: 330px;
+    height: 220px;
+    box-shadow: 10px 10px 0px $primary;
+    object-fit: cover;
+
+    @include for-lg {
+        width: 500px;
+        height: 300px;
+    }
+}
+

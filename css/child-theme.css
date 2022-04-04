@@ -12105,6 +12105,20 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   padding-bottom: 1rem;
 }
 
+.image-card {
+  width: 330px;
+  height: 220px;
+  box-shadow: 10px 10px 0px #9864a6;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+@media (min-width: 992px) {
+  .image-card {
+    width: 500px;
+    height: 300px;
+  }
+}
+
 #archive-wrapper #left-sidebar,
 #archive-wrapper #right-sidebar,
 #single-wrapper #left-sidebar,
