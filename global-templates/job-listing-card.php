@@ -8,6 +8,9 @@
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
 
+$tags_dienstverband = get_the_terms( $post->id,  "dienstverband" );
+$tags_soortonderwijs = get_the_terms( $post->id,  "soortonderwijs" );
+
 ?>
 
 <div class="jobs-list-section-card col-lg-4 col-md-6">
@@ -15,21 +18,25 @@ defined( 'ABSPATH' ) || exit;
         <div class="card-holder__content">
             <h4 class="card-holder__title"><?php the_title(); ?></h4>
             <div class="card-holder__list">
-                <!-- <p class="text-center"><?php echo get_field("locatie"); ?> - Primair Onderwijs</p> -->
+                <p class="text-center"><?php
+                    echo get_field("locatie");
+                    echo " - ";
+                    foreach ($tags_soortonderwijs as $tag) {
+                        echo $tag->name." ";
+                    };
+                    ?>
+                </p>
 
-                <p><?php echo wp_trim_words(get_field("over_de_functie"), 10); ?></p>
-                <ul>
-                    <li>
-                        <?php echo get_field("locatie"); ?>
-                    </li>
-                    <li>
-                        Primair Onderwijs
-                    </li>
-                    <li>
-                        Deeltijds, vaste baan
-                    </li>
+                <p><?php echo get_field("intro"); ?></p>
+                <?php 
+                    foreach ($tags_dienstverband as $tag) {
+                        echo $tag->name.", ";
+                    };
+                    foreach ($tags_soortonderwijs as $tag) {
+                        echo $tag->name.", ";
+                    };
+                        ?>
 
-                </ul>
             </div>
             <div class="card-holder_btn-container">
                 <a href="#" class="jobs-list-link btn btn-outline-light">Solliciteer</a>
