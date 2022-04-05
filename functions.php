@@ -141,3 +141,12 @@ function pom_render_block_job($title, $field) {
     $format =  '<div class="row"><div class="col-md-4"><p class="title_jobs_list">%s</p></div><div class="col-md-8">%s</div></div><hr>';
     printf( $format, $title, $field);
 };
+
+
+function printf_array($format, $arr) 
+{ 
+    return call_user_func_array('printf', array_merge((array)$format, $arr)); 
+}
+
+
+

@@ -17,39 +17,54 @@ defined( 'ABSPATH' ) || exit;
 
     <form>
         <p><strong>Jouw gegeven:</strong></p>
-        <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="floatingInput" placeholder="bedrijf">
-            <label for="floatingInput">Bedrijf*</label>
+        <div class="row">
+            <div class="col">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="bedrijf">
+                    <label for="floatingInput">Bedrijf*</label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="Naam*">
+                    <label for="floatingInput">Naam*</label>
+                </div>
+            </div>
         </div>
-        <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="floatingInput" placeholder="Naam*">
-            <label for="floatingInput">Naam*</label>
+        <div class="row">
+            <div class="col">
+                <div class="form-floating mb-3">
+                    <input type="tel*" class="form-control" id="floatingInput" placeholder="Telefoonnummer**">
+                    <label for="floatingInput">Telefoonnummer*</label>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="Functie">
+                    <label for="floatingInput">Functie</label>
+                </div>
+            </div>
         </div>
-        <div class="form-floating mb-3">
-            <input type="tel*" class="form-control" id="floatingInput" placeholder="Telefoonnummer**">
-            <label for="floatingInput">Telefoonnummer*</label>
-        </div>
+
+
         <div class="form-floating mb-3">
             <input type="email" class="form-control" id="floatingInput" placeholder="E-mail*">
             <label for="floatingInput">E-mail</label>
         </div>
 
-        <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="floatingInput" placeholder="Functie">
-            <label for="floatingInput">Functie</label>
-        </div>
         <p><strong>Wensprofiel voor Interim Professionals:</strong></p>
         <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="floatingInput" placeholder="Over de functie">
+            <input type="textarea" class="form-control" id="floatingInput" placeholder="Over de functie">
             <label for="floatingInput">Over de functie </label>
         </div>
         <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="floatingInput" placeholder="Over de persoon">
+            <input type="textarea" class="form-control" id="floatingInput" placeholder="Over de persoon">
             <label for="floatingInput">Over de persoon
             </label>
         </div>
         <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="floatingInput" placeholder="Opmerkingen">
+            <input type="textarea" class="form-control" id="floatingInput" placeholder="Opmerkingen">
             <label for="floatingInput">Opmerkingen</label>
         </div>
 

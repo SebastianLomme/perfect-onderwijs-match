@@ -14,7 +14,6 @@ $wat_breng_je_mee = get_field("wat_breng_je_mee");
 $aanvullende_informatie = get_field("aanvullende_informatie");
 $tags_dienstverband = get_the_terms( $post->id,  "dienstverband" );
 
-
 ?>
 
 <article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
