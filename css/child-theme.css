@@ -12129,7 +12129,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   padding: 2em;
   border-radius: 25px;
 }
-#contact-form-jobs h3, #contact-form-jobs .h3, #contact-form-jobs p {
+#contact-form-jobs h3, #contact-form-jobs .h3, #contact-form-jobs p, #contact-form-jobs label {
   color: #faf7fb;
 }
 
