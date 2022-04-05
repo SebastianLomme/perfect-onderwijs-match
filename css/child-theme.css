@@ -12124,6 +12124,15 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   color: #faf7fb;
 }
 
+#contact-form-jobs {
+  background: #9864a6;
+  padding: 2em;
+  border-radius: 25px;
+}
+#contact-form-jobs h3, #contact-form-jobs .h3, #contact-form-jobs p {
+  color: #faf7fb;
+}
+
 #archive-wrapper #left-sidebar,
 #archive-wrapper #right-sidebar,
 #single-wrapper #left-sidebar,
