@@ -128,3 +128,16 @@ add_filter( 'get_the_archive_title', 'wpdocs_remove_archive_title_prefixes', 10,
 // }
 
 // add_filter('plugin_action_links', 'remove_plugin_controls', 10, 4);
+
+function create_string_tags($array) {
+    $element_tags = '';
+    foreach ($array as $tag) {
+        $element_tags .= $tag->name . " - ";
+    }
+    echo rtrim($element_tags, " - ");
+};
+
+function pom_render_block_job($title, $field) {
+    $format =  '<div class="row"><div class="col-md-4"><p class="title_jobs_list">%s</p></div><div class="col-md-8">%s</div></div><hr>';
+    printf( $format, $title, $field);
+};

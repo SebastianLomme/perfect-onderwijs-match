@@ -21,20 +21,13 @@ $tags_soortonderwijs = get_the_terms( $post->id,  "soortonderwijs" );
                 <p class="text-center"><?php
                     echo get_field("locatie");
                     echo " - ";
-                    foreach ($tags_soortonderwijs as $tag) {
-                        echo $tag->name." ";
-                    };
+                    create_string_tags($tags_soortonderwijs);
                     ?>
                 </p>
 
                 <p><?php echo get_field("intro"); ?></p>
-                <?php 
-                    foreach ($tags_dienstverband as $tag) {
-                        echo $tag->name.", ";
-                    };
-                    foreach ($tags_soortonderwijs as $tag) {
-                        echo $tag->name.", ";
-                    };
+                <?php
+                create_string_tags($tags_dienstverband);
                         ?>
 
             </div>

@@ -12,11 +12,7 @@ $intro = get_field("intro");
 $wat_ga_je_doen = get_field("wat_ga_je_doen");
 $wat_breng_je_mee = get_field("wat_breng_je_mee");
 $aanvullende_informatie = get_field("aanvullende_informatie");
-
-function pom_render_block_job($title, $field) {
-    $format =  '<div class="row"><div class="col-md-4"><p class="title_jobs_list">%s</p></div><div class="col-md-8">%s</div></div><hr>';
-    printf( $format, $title, $field);
-};
+$tags_dienstverband = get_the_terms( $post->id,  "dienstverband" );
 
 
 ?>
@@ -28,7 +24,7 @@ function pom_render_block_job($title, $field) {
 
         <div class="container table_job_listing">
             <div class="row text-center h3">
-                <p><?php echo get_field("locatie"); ?> | 40 uur per week</p>
+                <p><?php echo get_field("locatie"); ?> | <?php create_string_tags($tags_dienstverband); ?> </p>
             </div>
             <div class="row">
                 <div class="col-lg-9">
