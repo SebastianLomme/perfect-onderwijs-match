@@ -15236,14 +15236,17 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 
 .pop-up-container {
   position: fixed;
-  min-width: 500px;
-  min-height: 500px;
   background-color: purple;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 999;
   border-radius: 25px;
+}
+@media (max-width: 576px) {
+  .pop-up-container {
+    width: 90%;
+  }
 }
 
 .close-button {
