@@ -1,0 +1,33 @@
+.pop-up-container {
+    position: fixed;
+    min-width: 500px;
+    min-height: 500px;
+    background-color: purple;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 999;
+    border-radius: 25px;
+
+}
+
+.close-button {
+    background-color: $light;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius:100%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+
+

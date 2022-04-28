@@ -29,6 +29,7 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
     <?php do_action( 'wp_body_open' ); ?>
     <div class="site" id="page">
 
+
         <!-- ******************* The Navbar Area ******************* -->
         <header id="wrapper-navbar">
 
@@ -37,3 +38,5 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
             <?php get_template_part( 'global-templates/navbar', $navbar_type . '-' . $bootstrap_version ); ?>
 
         </header><!-- #wrapper-navbar end -->
+
+        <?php get_template_part('global-templates/pop_up_contact_form_solliciteren');?>
