@@ -15,3 +15,4 @@ openSollicitatieButton.addEventListener("click", () => {
 })
 
 
+
