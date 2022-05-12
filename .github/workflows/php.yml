@@ -44,7 +44,7 @@ jobs:
                   key: ${{secrets.SECRET_KEY}}
                   passphrase: ${{secrets.PASS}}
                   script: |
-                      cd /var/www/html/wp-content/themes/perfect-onderwijs-match/
+                      cd /www/sebastianl42.sg-host.com/public_html/wp-content/themes/perfect-onderwijs-match
                       pwd
                       git pull git@github.com:SebastianLomme/perfect-onderwijs-match.git
                       pwd
