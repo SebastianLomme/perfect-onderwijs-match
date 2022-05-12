@@ -37,14 +37,15 @@ jobs:
                   # ssh host
                   host: ${{secrets.IP_SERVER}}
                   # ssh port
-                  port: 22
+                  port: ${{secrets.PORT}}
                   # ssh username
                   username: ${{secrets.USERNAME}}
                   # ssh password
                   key: ${{secrets.SECRET_KEY}}
+                  passphrase: ${{secrets.PASS}}
                   script: |
                       cd /var/www/html/wp-content/themes/perfect-onderwijs-match/
                       pwd
                       git pull git@github.com:SebastianLomme/perfect-onderwijs-match.git
-                      cd
-                      systemctl restart apache2.service
+                      pwd
+                      ls
