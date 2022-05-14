@@ -22,7 +22,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 <div class="hero-section">
     <div class="overlay"></div>
     <div class="hero-section__content container">
-        <h1 class="display-1">Vind de Perfecte <span class="text-secondary">match!</span></h1>
+        <h1 class="display-1 text-light">Vind de Perfecte <span class="text-secondary">match!</span></h1>
         <a href="<?php echo get_site_url() . '/contact'; ?>" class="btn btn-secondary call-btn"><img class="mx-2"
                 src="<?php echo get_stylesheet_directory_uri(); ?>/inc/images/telefoon.svg)" alt="" width="15px"
                 height="15px">Bel me terug</a>
