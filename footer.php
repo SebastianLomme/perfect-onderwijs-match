@@ -28,7 +28,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                     <div class="site-info">
 
                         <?php perfect_onderwijs_match_site_info(); ?> |
-                        <a href="#">Algemene voorwaarden</a>
+                        <a href="<?php echo get_site_url() . '/algemene-voorwaarden'; ?>">Algemene voorwaarden</a>
 
                     </div><!-- .site-info -->
 
