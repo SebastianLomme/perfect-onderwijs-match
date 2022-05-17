@@ -14924,7 +14924,6 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 }
 .info-section img {
   width: 330px;
-  height: 220px;
   box-shadow: 10px 10px 0px #9864a6;
   -o-object-fit: cover;
   object-fit: cover;
@@ -14932,7 +14931,6 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 @media (min-width: 992px) {
   .info-section img {
     width: 500px;
-    height: 300px;
   }
 }
 .info-section .row {

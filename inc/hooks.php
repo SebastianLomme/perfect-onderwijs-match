@@ -48,3 +48,4 @@ if ( ! function_exists( 'perfect_onderwijs_match_add_site_info' ) ) {
 		echo apply_filters( 'perfect_onderwijs_match_site_info_content', $site_info ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 	}
 }
+
