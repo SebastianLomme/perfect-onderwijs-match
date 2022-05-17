@@ -77,7 +77,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 
                     </div> <!-- /info-section__body -->
-                    <div class=" col-md-6 order-md-0 d-flex align-items-center">
+                    <div class=" col-md-6 order-md-0 d-flex align-items-center justify-content-center">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/inc/images/wie-ben-ik.jpg" alt="">
                     </div>
                 </div> <!-- /row -->
