@@ -14624,6 +14624,10 @@ a.skip-link {
   src: url("./../src/sass/assets/fonts/gothicb.ttf") format("truetype");
   font-display: swap;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "titlefont", sans-serif;
   font-size: 16px;
@@ -15150,12 +15154,12 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   color: #faf7fb;
 }
 
-#contact-form-jobs {
+#contact-form-jobs, #contact-form-jobs-open {
   background: #9864a6;
   padding: 2em;
   border-radius: 25px;
 }
-#contact-form-jobs h3, #contact-form-jobs .h3, #contact-form-jobs p {
+#contact-form-jobs h3, #contact-form-jobs .h3, #contact-form-jobs p, #contact-form-jobs-open h3, #contact-form-jobs-open .h3, #contact-form-jobs-open p {
   color: #faf7fb;
 }
 

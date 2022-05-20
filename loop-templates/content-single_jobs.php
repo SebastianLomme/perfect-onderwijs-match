@@ -49,14 +49,14 @@ $tags_dienstverband = get_the_terms( $post->id,  "dienstverband" );
                     <div class="img-btn-holder">
                         <img class="round-image"
                             src="<?php echo get_stylesheet_directory_uri(); ?>/inc/images/contact-ons.webp" alt="">
-                        <a href="#contact-form-jobs" class="btn btn-secondary">
+                        <a href="#contact-form-jobs-link" class="btn btn-secondary">
                             Solliciteer nu
                         </a>
                     </div>
                 </div>
             </div>
 
-            <div class="contact-us-section">
+            <div class="contact-us-section" id="contact-form-jobs-link">
                 <?php echo get_template_part('global-templates/contact-form-job-listing'); ?>
             </div>
 
