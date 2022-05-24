@@ -42,37 +42,13 @@ $container = get_theme_mod( 'understrap_container_type' );
                 <div class="row justify-content-between">
                     <div class="info-section__body  col-md-6 order-md-1">
                         <div class="p-3">
-                            <h3 class="title">Daarom kies jij voor Perfect Onderwijs Match!</h3>
-                            <p>
-                                Voor scholen en leerkrachten ga ik op zoek naar de perfecte match in het basisonderwijs/
-                                speciaal onderwijs en Praktijkonderwijs.
-                            </p>
-                            <p>
-                                Omdat ik veel op de werkvloer te vinden ben weet ik van beide kanten wat er nodig is
-                                voor
-                                een perfecte match. Mijn betrokkenheid, persoonlijke aanpak en jij als persoon staan
-                                centraal in mijn dienstverlening. Wil je echt gelukkig zijn in je werk en ben je
-                                benieuwd
-                                naar mijn werkwijze, ik vertel je er graag meer over.
-                            </p>
+                            <h3 class="title"><?php echo get_field("section_one_title"); ?></h3>
+                            <?php echo get_field("section_one_content"); ?>
                         </div>
 
                         <div class="p-3">
-                            <h3 class="title">Het gezicht achter Perfect Onderwijs Match</h3>
-                            <p>
-                                Sinds 2013 werk ik – Jennifer – in het onderwijs. Daarnaast ben ik getrouwd en moeder
-                                van 2
-                                kinderen. Ik ben gestart in het regulier onderwijs en na een aantal jaren overgestapt
-                                naar
-                                het speciaal onderwijs. Daar heb ik mijn hart verloren aan de leerlingen! Het speciaal
-                                onderwijs is voor mij een warme plek waar ik graag ben.
-                            </p>
-                            <p>
-                                Sinds een aantal jaar werk ik als Ambulant Begeleider expertise cluster 3 (zeer moeilijk
-                                lerend onderwijs), daardoor kom ik op veel verschillende scholen. Op deze scholen
-                                ondersteun
-                                en coach ik het team.
-                            </p>
+                            <h3 class="title"><?php echo get_field("section_two_title"); ?></h3>
+                            <?php echo get_field("section_two_content"); ?>
                         </div>
 
 
