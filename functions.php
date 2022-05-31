@@ -131,10 +131,15 @@ add_filter( 'get_the_archive_title', 'wpdocs_remove_archive_title_prefixes', 10,
 
 function create_string_tags($array) {
     $element_tags = '';
-    foreach ($array as $tag) {
-        $element_tags .= $tag->name . " - ";
-    }
-    echo rtrim($element_tags, " - ");
+
+	if (empty($array)) {
+		echo $element_tags;
+	} else {
+		foreach ($array as $tag) {
+			$element_tags .= $tag->name . " - ";
+		};
+		echo rtrim($element_tags, " - ");
+	}
 };
 
 function pom_render_block_job($title, $field) {
