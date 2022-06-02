@@ -12,7 +12,7 @@
                             <div class="col-sm card_body_col">
                                 <h5 class="card-subtitle mb-2 text-light" style="--bs-text-opacity: .5;">Opdrachtgever
                                 </h5>
-                                <p class="card-text">POM gaat op zoek of heeft een ervaren kandidaat beschikbaar.
+                                <p class="card-text"><?php echo get_field("section_opdrachtgever", 6);?>
                                     <a href="<?php echo get_site_url() . '/opdrachtgevers'; ?>"
                                         class="card-link d-block text-light">Lees meer...</a>
                                 </p>
@@ -20,8 +20,7 @@
                             </div>
                             <div class="col-sm card_body_col">
                                 <h5 class="card-subtitle mb-2 text-light" style="--bs-text-opacity: .5;">Kandidaat</h5>
-                                <p class="card-text">POM heeft de baan die bij jou past. Hebben we die nu niet? Samen op
-                                    zoek.
+                                <p class="card-text"><?php echo get_field("section_kandidaat", 6); ?>
                                     <a href="<?php echo get_site_url() . '/onderwijsprofessional'; ?>"
                                         class="card-link d-block text-light">Lees meer...</a>
                                 </p>
@@ -39,10 +38,9 @@
                     <div class="card-body">
                         <h3 class="card-title text-light">ZZP</h3>
                         <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-                        <p class="card-text">Wil je afwisseling in opdrachten? of je rugzak positief vullen en
-                            inspringen op de momenten dat een school jou nodig heeft?
+                        <p class="card-text"><?php echo get_field("section_zzp_one", 6);?>
                             <hr class="bg-light">
-                            Wil je gaan werken als zzp'er maar wil je meer info?
+                            <?php echo get_field("section_zzp_two", 6);?>
                             <a href="<?php echo get_site_url() . '/onderwijsprofessional'; ?>"
                                 class="card-link d-block text-light">Lees meer...</a>
                         </p>
@@ -54,16 +52,17 @@
                     <div class="card-body">
                         <h3 class="card-title text-light">Scholing & Coaching</h3>
                         <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-                        <p>Coaching aan leerkrachten: moeilijke hulpvragen cluster 3/4</p>
+                        <p><?php echo get_field("section_scholing_one", 6);?></p>
                         <hr class="bg-light">
+                        <?php echo get_field("section_scholing_two", 6);?>
 
-                        <p>Scholing & voorlichting: heb je een specifieke scholingsvraag?</p>
+                        <!-- <p>Scholing & voorlichting: heb je een specifieke scholingsvraag?</p>
                         <ul>
                             <li>Ass</li>
                             <li>Gedrag</li>
                             <li>ADHD</li>
                             <li>etc</li>
-                        </ul>
+                        </ul> -->
                         <a href="<?php echo get_site_url() . '/opdrachtgevers'; ?>"
                             class="card-link d-block text-light">Lees
                             meer...</a>
