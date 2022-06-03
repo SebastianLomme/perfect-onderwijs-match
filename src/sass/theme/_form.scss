@@ -26,4 +26,13 @@ textarea {
     @extend .btn-secondary;
 }
 
+.gform_confirmation_message {
+
+    background: $light;
+    color: $primary;
+    padding: 2em;
+    margin: 2em;
+    border-radius: 25px;
+}
+
 

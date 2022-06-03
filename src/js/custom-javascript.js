@@ -9,10 +9,12 @@ closeButton.addEventListener("click", () => {
     popUpContainer.classList.add("hide")
 })
 
+
 openSollicitatieButton.addEventListener("click", () => {
     console.log("Click")
     popUpContainer.classList.remove("hide")
 })
+
 
 
 

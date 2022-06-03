@@ -384,3 +384,16 @@ if( function_exists('acf_add_local_field_group') ):
     ));
     
     endif;		
+
+
+    function add_column( $columns ){
+        $columns['post_id_clmn'] = 'ID'; // $columns['Column ID'] = 'Column Title';
+        return $columns;
+    }
+    add_filter('manage_posts_columns', 'add_column', 5);
+    
+    function column_content( $column, $id ){
+        if( $column === 'post_id_clmn')
+            echo $id;
+    }
+    add_action('manage_posts_custom_column', 'column_content', 5, 2);

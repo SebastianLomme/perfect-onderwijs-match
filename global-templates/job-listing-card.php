@@ -32,7 +32,8 @@ $tags_soortonderwijs = get_the_terms( $post->id,  "soortonderwijs" );
 
             </div>
             <div class="card-holder_btn-container">
-                <a href="#" class="jobs-list-link btn btn-outline-light">Solliciteer</a>
+                <a href="<?php echo get_permalink(); ?>/#contact-form-jobs-link" id="<?php echo get_the_ID(); ?>"
+                    class="jobs-list-link btn btn-outline-light vacatureSollicitatieButton">Solliciteer</a>
                 <a href="<?php echo get_permalink(); ?>" class="jobs-list-link btn btn-secondary">Vacature</a>
             </div>
         </div>
