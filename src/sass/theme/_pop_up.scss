@@ -1,18 +1,22 @@
-.pop-up-container {
-    position: fixed;
-    // min-width: 500px;
-    // min-height: 500px;
-    background-color: purple;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    z-index: 999;
-    border-radius: 25px;
+// .pop-up-container, .theme-138 {
+//     color: $light;
+//     position: fixed;
+//     background-color: purple;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%,-50%);
+//     z-index: 999;
+//     border-radius: 25px;
+//     border: none;
 
-    @include for-xs {
-        width: 90%;
-    }
+//     @include for-xs {
+//         width: 90%;
+//     }
 
+// }
+
+.pum-overlay {
+    opacity: 0.5;
 }
 
 .close-button {

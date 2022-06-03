@@ -15258,19 +15258,8 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   }
 }
 
-.pop-up-container {
-  position: fixed;
-  background-color: purple;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 999;
-  border-radius: 25px;
-}
-@media (max-width: 576px) {
-  .pop-up-container {
-    width: 90%;
-  }
+.pum-overlay {
+  opacity: 0.5;
 }
 
 .close-button {
