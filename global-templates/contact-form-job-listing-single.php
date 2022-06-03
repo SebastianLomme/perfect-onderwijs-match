@@ -13,7 +13,7 @@ defined( 'ABSPATH' ) || exit;
 
 <div class="contact-info-form w-100" id="contact-form-jobs">
     <h3>Solliciteer direct op deze functie!</h3>
-    <?php echo do_shortcode('[gravityform id="3" title="false"]'); ?>
+    <?php echo do_shortcode('[gravityform id="5" title="false"]'); ?>
     <!-- <form>
         <div class="form-floating mb-3">
             <input type="text" class="form-control" id="floatingInput" placeholder="Naam*">

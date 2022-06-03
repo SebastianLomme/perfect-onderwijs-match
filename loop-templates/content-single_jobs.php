@@ -57,7 +57,7 @@ $tags_dienstverband = get_the_terms( $post->id,  "dienstverband" );
             </div>
 
             <div class="contact-us-section" id="contact-form-jobs-link">
-                <?php echo get_template_part('global-templates/contact-form-job-listing'); ?>
+                <?php echo get_template_part('global-templates/contact-form-job-listing-single'); ?>
             </div>
 
 
