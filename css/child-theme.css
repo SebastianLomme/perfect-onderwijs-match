@@ -15179,6 +15179,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   background: #9864a6;
   padding: 2em;
   border-radius: 25px;
+  margin-block: 3em;
 }
 #contact-form-jobs h3, #contact-form-jobs .h3, #contact-form-jobs p, #contact-form-jobs-open h3, #contact-form-jobs-open .h3, #contact-form-jobs-open p {
   color: #faf7fb;
@@ -15281,38 +15282,51 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 }
 
 /*** FIELD STYLING ***/
-input[type=text],
-input[type=tel],
-input[type=email],
-textarea {
-  border: none;
-  border-radius: 5px;
-  padding: 15px !important;
-}
-input[type=text]:active .gform_wrapper .top_label .gfield_label,
-input[type=text]:active .gform_wrapper .field_sublabel_below .ginput_complex.ginput_container label, input[type=text]:focus .gform_wrapper .top_label .gfield_label,
-input[type=text]:focus .gform_wrapper .field_sublabel_below .ginput_complex.ginput_container label,
-input[type=tel]:active .gform_wrapper .top_label .gfield_label,
-input[type=tel]:active .gform_wrapper .field_sublabel_below .ginput_complex.ginput_container label,
-input[type=tel]:focus .gform_wrapper .top_label .gfield_label,
-input[type=tel]:focus .gform_wrapper .field_sublabel_below .ginput_complex.ginput_container label,
-input[type=email]:active .gform_wrapper .top_label .gfield_label,
-input[type=email]:active .gform_wrapper .field_sublabel_below .ginput_complex.ginput_container label,
-input[type=email]:focus .gform_wrapper .top_label .gfield_label,
-input[type=email]:focus .gform_wrapper .field_sublabel_below .ginput_complex.ginput_container label,
-textarea:active .gform_wrapper .top_label .gfield_label,
-textarea:active .gform_wrapper .field_sublabel_below .ginput_complex.ginput_container label,
-textarea:focus .gform_wrapper .top_label .gfield_label,
-textarea:focus .gform_wrapper .field_sublabel_below .ginput_complex.ginput_container label {
-  display: block !important;
-}
-
 .gform_confirmation_message {
   background: #faf7fb;
   color: #9864a6;
   padding: 2em;
   margin: 2em;
   border-radius: 25px;
+}
+
+.contact-info-form {
+  margin-block: 5em;
+}
+
+.focus-label, .gfield:focus-within .gfield_label {
+  transform: translateY(-70%) !important;
+  height: 100%;
+  color: #faf7fb;
+  opacity: 1;
+}
+
+.gfield {
+  position: relative;
+}
+.gfield:focus-within .gfield_required {
+  color: #faf7fb;
+}
+
+.gfield_label {
+  position: absolute;
+  opacity: 0.7;
+  z-index: 1;
+  left: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.5s ease;
+}
+
+.ginput_container {
+  border: none;
+  border-radius: 5px;
+}
+.ginput_container input {
+  border-radius: 5px;
+  padding: 15px !important;
+  margin: 10px !important;
+  background-color: #fff;
 }
 
 /*** REMOVE LABEL ON FIELDS USING PLACEHOLDER ***/
