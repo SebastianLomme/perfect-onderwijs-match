@@ -15312,7 +15312,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   position: absolute;
   opacity: 0.7;
   z-index: 1;
-  left: 24px;
+  left: 14px;
   top: 50%;
   transform: translateY(-50%);
   transition: transform 0.5s ease;
@@ -15322,11 +15322,12 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   border: none;
   border-radius: 5px;
 }
-.ginput_container input {
+.ginput_container input, .ginput_container textarea {
   border-radius: 5px;
   padding: 15px !important;
-  margin: 10px !important;
+  margin-block: 10px !important;
   background-color: #fff;
+  border: none;
 }
 
 /*** REMOVE LABEL ON FIELDS USING PLACEHOLDER ***/
