@@ -1,88 +1,55 @@
-.gform_wrapper .top_label .gfield_label,
-.gform_wrapper .field_sublabel_below .ginput_complex.ginput_container label {
-    // display: none !important;
-}
-/*** FIELD STYLING ***/
-
-// input[type=text],
-// input[type=tel],
-// input[type=email],
-// textarea {
-//  border: none;
-//  border-radius: 5px;
-//  padding: 15px !important;
-//  &:active,
-//  &:focus {
-//     .gform_wrapper .top_label .gfield_label,
-//     .gform_wrapper .field_sublabel_below .ginput_complex.ginput_container label {
-//     display: block !important;
-//     }
-//  }
-// }
-
-.gform_button {
-    @extend .btn;
-    @extend .btn-secondary;
-}
-
-.gform_confirmation_message {
-
-    background: $light;
-    color: $primary;
-    padding: 2em;
-    margin: 2em;
-    border-radius: 25px;
-}
-
 .contact-info-form {
     margin-block: 5em;
 }
 
-.focus-label {
-    transform: translateY(-70%) !important;
-    height: 100%;
-    color: $light;
-    opacity: 1;
-}
+.gform_wrapper {
 
-
-.gfield{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    &:focus-within {
-        .gfield_label {
-            @extend .focus-label;
-        }
+    .gform_button {
+        @extend .btn;
+        @extend .btn-secondary;
+    }
+    
+    .gform_confirmation_message {
+    
+        background: $light;
+        color: $primary;
+        padding: 2em;
+        margin: 2em;
+        border-radius: 25px;
+    }
+    
+    .gfield_label{
+        color: $light;
+        opacity: 0;
+        transition: all 0.5s ease;
+    
         .gfield_required {
             color: $light;
         }
     }
-}
-
-.gfield_label{
-    position: absolute;
-    opacity: 0.7;
-    z-index: 1;
-    left: 14px;
-    top: 50%;
-    transform: translateY(-50%);
-    transition: transform 0.5s ease;
-}
-
-.ginput_container{
-    border: none;
-    border-radius: 5px;
-    position: relative;
-
-
-    input, textarea {
-        border-radius: 5px;
-        padding: 15px !important;
-        margin-block: 10px !important;
-        background-color: #fff;
-        border: none;
+    
+    
+    .focus-label {
+        opacity: 1;
     }
-}
+    
+    .ginput_container{
+        border: none;
+        border-radius: 5px;
+    
+        input, textarea {
+            border-radius: 5px;
+            padding: 15px !important;
+            background-color: #fff;
+            border: none;
 
+            &::placeholder {
+                
+            }
+        }
+    }
+    
+
+    
+
+}
