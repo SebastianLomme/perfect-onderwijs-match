@@ -15303,6 +15303,10 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 .gform_wrapper .gfield_label .gfield_required {
   color: #faf7fb;
 }
+.gform_wrapper .show_label .gfield_label {
+  opacity: 1;
+  bottom: 0;
+}
 .gform_wrapper .focus-label {
   opacity: 1;
   bottom: 0;
