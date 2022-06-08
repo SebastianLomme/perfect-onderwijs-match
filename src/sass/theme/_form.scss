@@ -48,6 +48,9 @@
 
 .gfield{
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
     &:focus-within {
         .gfield_label {
             @extend .focus-label;
@@ -71,6 +74,8 @@
 .ginput_container{
     border: none;
     border-radius: 5px;
+    position: relative;
+
 
     input, textarea {
         border-radius: 5px;

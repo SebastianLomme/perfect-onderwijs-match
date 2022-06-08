@@ -15303,6 +15303,9 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 
 .gfield {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .gfield:focus-within .gfield_required {
   color: #faf7fb;
@@ -15321,6 +15324,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 .ginput_container {
   border: none;
   border-radius: 5px;
+  position: relative;
 }
 .ginput_container input, .ginput_container textarea {
   border-radius: 5px;
