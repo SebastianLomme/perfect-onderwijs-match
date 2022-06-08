@@ -15295,6 +15295,9 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 .gform_wrapper .gfield_label {
   color: #faf7fb;
   opacity: 0;
+  z-index: 0;
+  position: relative;
+  bottom: -50px;
   transition: all 0.5s ease;
 }
 .gform_wrapper .gfield_label .gfield_required {
@@ -15302,6 +15305,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 }
 .gform_wrapper .focus-label {
   opacity: 1;
+  bottom: 0;
 }
 .gform_wrapper .ginput_container {
   border: none;

@@ -21,6 +21,9 @@
     .gfield_label{
         color: $light;
         opacity: 0;
+        z-index: 0;
+        position: relative;
+        bottom: -50px;
         transition: all 0.5s ease;
     
         .gfield_required {
@@ -31,6 +34,7 @@
     
     .focus-label {
         opacity: 1;
+        bottom:0;
     }
     
     .ginput_container{
