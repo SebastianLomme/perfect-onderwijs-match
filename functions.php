@@ -134,12 +134,12 @@ function create_string_tags($array) {
     $element_tags = '';
 
 	if (empty($array)) {
-		echo $element_tags;
+		return $element_tags;
 	} else {
 		foreach ($array as $tag) {
 			$element_tags .= $tag->name . " - ";
 		};
-		echo rtrim($element_tags, " - ");
+		return rtrim($element_tags, " - ");
 	}
 };
 
@@ -153,4 +153,3 @@ function printf_array($format, $arr)
 { 
     return call_user_func_array('printf', array_merge((array)$format, $arr)); 
 }
-

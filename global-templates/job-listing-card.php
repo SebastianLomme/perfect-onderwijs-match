@@ -23,8 +23,11 @@ $tags_soortonderwijs = get_the_terms( $post->id,  "soortonderwijs" );
                 <p class="text-center">
                     <?php
                         echo get_field("locatie");
-                        echo " - ";
-                        create_string_tags($tags_soortonderwijs);
+                        if (create_string_tags($tags_soortonderwijs) != ""){
+                            echo " - ";
+                        };
+                        
+                        echo create_string_tags($tags_soortonderwijs);
                     ?>
                 </p>
             </div>
@@ -32,7 +35,7 @@ $tags_soortonderwijs = get_the_terms( $post->id,  "soortonderwijs" );
             <div class="card-holder__body"><?php echo get_field("intro"); ?></div>
             <p class="card-holder__footer">
                 <?php
-                create_string_tags($tags_dienstverband);
+                echo create_string_tags($tags_dienstverband);
                         ?>
             </p>
 

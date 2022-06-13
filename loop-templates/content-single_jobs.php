@@ -23,7 +23,7 @@ $tags_dienstverband = get_the_terms( $post->id,  "dienstverband" );
 
         <div class="container table_job_listing">
             <div class="row text-center h3">
-                <p><?php echo get_field("locatie"); ?> | <?php create_string_tags($tags_dienstverband); ?> </p>
+                <p><?php echo get_field("locatie"); ?> | <?php echo create_string_tags($tags_dienstverband); ?> </p>
             </div>
             <div class="row">
                 <div class="col-lg-9">
