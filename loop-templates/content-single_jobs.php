@@ -61,7 +61,8 @@ $image = get_the_post_thumbnail_url( get_the_ID(), 'medium' );
                             Solliciteer nu
                         </a>
                         <?php if( get_field('file') ): ?>
-                        <a class="mt-4 btn btn btn-outline-secondary" href="<?php echo the_field('file'); ?>">Functie
+                        <a class="mt-4 btn btn btn-outline-secondary" href="<?php echo the_field('file'); ?>"
+                            target=”_blank”>Functie
                             profiel</a>
                         <?php endif; ?>
 

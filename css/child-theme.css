@@ -14665,6 +14665,10 @@ h3,
   color: #9864a6;
 }
 
+.text-justify p {
+  text-align: justify !important;
+}
+
 nav {
   font-weight: 700;
   font-size: 18px;
