@@ -60,7 +60,7 @@
 .gform_confirmation_message {
     font-size: 24px;
     text-align: center;
-    width: 500px;
+    max-width: 500px;
     display: flex;
     flex-direction: column;
     margin-inline: auto;
@@ -73,5 +73,5 @@
         margin: 1em;
     }
     }
-
     
+
