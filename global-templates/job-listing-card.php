@@ -17,20 +17,22 @@ $tags_soortonderwijs = get_the_terms( $post->id,  "soortonderwijs" );
     <div class="card-holder">
         <div class="card-holder__content">
             <h4 class="card-holder__title"><?php the_title(); ?></h4>
-            <div class="card-holder__list">
-                <p class="text-center"><?php
-                    echo get_field("locatie");
-                    echo " - ";
-                    create_string_tags($tags_soortonderwijs);
-                    ?>
-                </p>
 
-                <p><?php echo get_field("intro"); ?></p>
+            <p class="text-center card-holder__subtitle">
+                <?php
+                echo get_field("locatie");
+                echo " - ";
+                create_string_tags($tags_soortonderwijs);
+                ?>
+            </p>
+            <div class="card-holder__body"><?php echo get_field("intro"); ?></div>
+            <p class="card-holder__footer">
                 <?php
                 create_string_tags($tags_dienstverband);
                         ?>
+            </p>
 
-            </div>
+
             <div class="card-holder_btn-container">
                 <a href="<?php echo get_permalink(); ?>/#contact-form-jobs-link" id="<?php echo get_the_ID(); ?>"
                     class="jobs-list-link btn btn-outline-light vacatureSollicitatieButton">Solliciteer</a>

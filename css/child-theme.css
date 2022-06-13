@@ -14975,7 +14975,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   padding: 12px;
 }
 .jobs-list-section .card-holder {
-  padding: 12px;
+  padding: 18px;
   background-color: #9864a6;
   color: #faf7fb;
   border-radius: 25px;
@@ -14985,11 +14985,8 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 .jobs-list-section .card-holder__content {
   height: 100%;
   display: grid;
-  grid-template-areas: "head" "main" "foot";
-  grid-template-rows: auto auto 80px;
-}
-.jobs-list-section .card-holder__list {
-  grid-area: main;
+  grid-template-areas: "head" "subhead" "main" "footer" "button";
+  grid-template-rows: 100px 80px auto 50px 80px;
 }
 .jobs-list-section .card-holder__list li {
   margin-bottom: 12px;
@@ -15001,8 +14998,17 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   justify-content: center;
   text-align: center;
 }
+.jobs-list-section .card-holder__subtitle {
+  grid-area: subhead;
+}
+.jobs-list-section .card-holder__body {
+  grid-area: main;
+}
+.jobs-list-section .card-holder__footer {
+  grid-area: footer;
+}
 .jobs-list-section .card-holder_btn-container {
-  grid-area: foot;
+  grid-area: button;
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
@@ -15321,6 +15327,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   background-color: #fff;
   border: none;
 }
+
 /*** REMOVE LABEL ON FIELDS USING PLACEHOLDER ***/
 
 /*# sourceMappingURL=child-theme.css.map */

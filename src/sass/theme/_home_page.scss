@@ -39,7 +39,7 @@
     }
 
     .card-holder {
-        padding: 12px;
+        padding: 18px;
         background-color: $primary;
         color: $light;
         border-radius: 25px;
@@ -51,13 +51,14 @@
             display: grid;
             grid-template-areas:
                 "head"
+                "subhead"
                 "main"
-                "foot";
-            grid-template-rows: auto auto 80px;
+                "footer"
+                "button";
+            grid-template-rows: 100px 80px auto 50px 80px;
         }
 
         &__list {
-            grid-area: main;
 
             li {
                 margin-bottom: 12px;
@@ -73,10 +74,23 @@
             // align-items: center;
             text-align: center;
         }
+
+        &__subtitle {
+            grid-area: subhead;
+        }
+
+        &__body {
+            grid-area: main
+        }
+
+        &__footer {
+            grid-area: footer
+        }
+
         // margin: 1em;
 
         &_btn-container {
-            grid-area: foot;
+            grid-area: button;
             display: inline-flex;
             justify-content: space-between;
             align-items: center;
