@@ -78,6 +78,25 @@ $container = get_theme_mod( 'understrap_container_type' );
 
             <?php get_template_part('global-templates/home-page-content') ?>
 
+            <?php
+					while ( have_posts() ) {
+						the_post();
+						the_content();
+						understrap_link_pages();
+				
+						echo '</div><!-- .entry-content -->';
+
+						// If comments are open or we have at least one comment, load up the comment template.
+						if ( comments_open() || get_comments_number() ) {
+							comments_template();
+						}
+					}
+					?>
+
+
+
+
+
             <div class="contact-us-section container">
                 <div class="contact-info-card">
                     <!-- <div class="contact-info-card-content"> -->
@@ -109,30 +128,12 @@ $container = get_theme_mod( 'understrap_container_type' );
                         <!-- </div> -->
                     </div>
 
+
+
                 </div>
                 <?php echo get_template_part('global-templates/contact-form'); ?>
 
             </div>
-
-
-            <?php
-					while ( have_posts() ) {
-						the_post();
-						// get_template_part( 'loop-templates/content', 'page' );
-
-						echo '<div class="entry-content">';
-
-						the_content();
-						understrap_link_pages();
-				
-						echo '</div><!-- .entry-content -->';
-
-						// If comments are open or we have at least one comment, load up the comment template.
-						if ( comments_open() || get_comments_number() ) {
-							comments_template();
-						}
-					}
-					?>
 
         </main>
 
