@@ -51,11 +51,10 @@
             display: grid;
             grid-template-areas:
                 "head"
-                "subhead"
                 "main"
                 "footer"
                 "button";
-            grid-template-rows: 100px 80px auto 50px 80px;
+            grid-template-rows: 120px auto max-content max-content;
         }
 
         &__list {
@@ -69,8 +68,8 @@
             // font-size: 28px;
             padding-top: 1em;
             grid-area: head;
-            display: inline-flex;
-            justify-content: center;
+            // display: inline-flex;
+            // justify-content: center;
             // align-items: center;
             text-align: center;
         }

@@ -16,15 +16,19 @@ $tags_soortonderwijs = get_the_terms( $post->id,  "soortonderwijs" );
 <div class="jobs-list-section-card col-lg-4 col-md-6">
     <div class="card-holder">
         <div class="card-holder__content">
-            <h4 class="card-holder__title"><?php the_title(); ?></h4>
+            <div class="card-holder__title">
+                <h4 class="text-center">
+                    <?php the_title(); ?>
+                </h4>
+                <p class="text-center">
+                    <?php
+                        echo get_field("locatie");
+                        echo " - ";
+                        create_string_tags($tags_soortonderwijs);
+                    ?>
+                </p>
+            </div>
 
-            <p class="text-center card-holder__subtitle">
-                <?php
-                echo get_field("locatie");
-                echo " - ";
-                create_string_tags($tags_soortonderwijs);
-                ?>
-            </p>
             <div class="card-holder__body"><?php echo get_field("intro"); ?></div>
             <p class="card-holder__footer">
                 <?php

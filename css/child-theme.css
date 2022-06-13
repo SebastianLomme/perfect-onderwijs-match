@@ -14985,8 +14985,9 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 .jobs-list-section .card-holder__content {
   height: 100%;
   display: grid;
-  grid-template-areas: "head" "subhead" "main" "footer" "button";
-  grid-template-rows: 100px 80px auto 50px 80px;
+  grid-template-areas: "head" "main" "footer" "button";
+  grid-template-rows: 120px auto -webkit-max-content -webkit-max-content;
+  grid-template-rows: 120px auto max-content max-content;
 }
 .jobs-list-section .card-holder__list li {
   margin-bottom: 12px;
@@ -14994,8 +14995,6 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 .jobs-list-section .card-holder__title {
   padding-top: 1em;
   grid-area: head;
-  display: inline-flex;
-  justify-content: center;
   text-align: center;
 }
 .jobs-list-section .card-holder__subtitle {
