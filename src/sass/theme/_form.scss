@@ -55,23 +55,23 @@
         }
     }
     
-
-    .gform_confirmation_message {
-        font-size: 24px;
-        text-align: center;
-        width: 500px;
-        display: flex;
-        flex-direction: column;
-        margin-inline: auto;
-        color: $light;
-        align-items: center;
-
-        img {
-            border-radius: 50%;
-            width: 150px;
-            margin: 1em;
-        }
-        }
-
-
 }
+
+.gform_confirmation_message {
+    font-size: 24px;
+    text-align: center;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+    color: $light;
+    align-items: center;
+
+    img {
+        border-radius: 50%;
+        width: 150px;
+        margin: 1em;
+    }
+    }
+
+    
