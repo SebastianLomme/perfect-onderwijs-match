@@ -15175,13 +15175,13 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   color: #faf7fb;
 }
 
-#contact-form-jobs, #contact-form-jobs-open {
+#contact-form-jobs, #contact-form-jobs-open, #contact-form-jobs-wensprofiel {
   background: #9864a6;
   padding: 2em;
   border-radius: 25px;
   margin-block: 3em;
 }
-#contact-form-jobs h3, #contact-form-jobs .h3, #contact-form-jobs p, #contact-form-jobs-open h3, #contact-form-jobs-open .h3, #contact-form-jobs-open p {
+#contact-form-jobs h3, #contact-form-jobs .h3, #contact-form-jobs p, #contact-form-jobs-open h3, #contact-form-jobs-open .h3, #contact-form-jobs-open p, #contact-form-jobs-wensprofiel h3, #contact-form-jobs-wensprofiel .h3, #contact-form-jobs-wensprofiel p {
   color: #faf7fb;
 }
 
