@@ -102,17 +102,22 @@
     }
 }
 
-.jobs-list-section-card:nth-of-type(4) {
-    display: none !important;
-
-    @include for-md {
-        display: block !important;
-    }
-
-    @include for-lg {
+#home-page-wrapper {
+    .jobs-list-section-card:nth-of-type(4) {
         display: none !important;
+    
+        @include for-md {
+            display: block !important;
+        }
+    
+        @include for-lg {
+            display: none !important;
+        }
     }
+
 }
+
+
 
 .main-section {
     background: rgba(152, 100, 166, 0.8);
