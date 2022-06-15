@@ -1,5 +1,5 @@
 <div class="main-section image-light container-fluid"
-    style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/inc/images/waarom-pom.jpg)">
+    style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/inc/images/waarom-pom.webp)">
     <div class="container">
         <div class="title-primary">
             <h3>Werving & selectie</h3>
