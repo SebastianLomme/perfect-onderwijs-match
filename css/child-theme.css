@@ -14755,7 +14755,7 @@ nav .current-menu-item .nav-link {
 }
 
 .hero-section {
-  background-image: url("./../inc/images/hero-image-small.jpg");
+  background-image: url("./../inc/images/hero-image.webp");
   background-color: #9864a6;
   background-position: center;
   position: relative;
@@ -15257,13 +15257,11 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   position: sticky;
   top: 66px;
 }
-.img-btn-holder .btn, .img-btn-holder .gform_wrapper .gform_button, .gform_wrapper .img-btn-holder .gform_button, .img-btn-holder .menu-item-120,
-.img-btn-holder .menu-item-66 {
+.img-btn-holder .btn-secondary, .img-btn-holder .gform_wrapper .gform_button, .gform_wrapper .img-btn-holder .gform_button {
   display: none;
 }
 @media (min-width: 992px) {
-  .img-btn-holder .btn, .img-btn-holder .gform_wrapper .gform_button, .gform_wrapper .img-btn-holder .gform_button, .img-btn-holder .menu-item-120,
-.img-btn-holder .menu-item-66 {
+  .img-btn-holder .btn-secondary, .img-btn-holder .gform_wrapper .gform_button, .gform_wrapper .img-btn-holder .gform_button {
     display: block;
   }
 }
