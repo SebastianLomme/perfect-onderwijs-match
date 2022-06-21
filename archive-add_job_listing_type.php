@@ -48,7 +48,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                 </header><!-- .page-header -->
 
                 <div class="container">
-                    <div class="row text-justify">
+                    <div class="row text-justify mt-5">
                         <p class="col-lg">
                             Ben je op zoek naar een vaste baan in het onderwijs? Dan ga ik voor jou op zoek naar de
                             beste
