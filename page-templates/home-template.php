@@ -41,12 +41,12 @@ $container = get_theme_mod( 'understrap_container_type' );
             <div class="info-section container">
                 <div class="row justify-content-between">
                     <div class="info-section__body  col-md-6 order-md-1">
-                        <div class="p-3">
+                        <div class="p-3 text-justify">
                             <h3 class="title"><?php echo get_field("section_one_title"); ?></h3>
                             <?php echo get_field("section_one_content"); ?>
                         </div>
 
-                        <div class="p-3">
+                        <div class="p-3 text-justify">
                             <h3 class="title"><?php echo get_field("section_two_title"); ?></h3>
                             <?php echo get_field("section_two_content"); ?>
                         </div>

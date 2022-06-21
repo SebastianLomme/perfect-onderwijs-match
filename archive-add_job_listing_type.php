@@ -47,6 +47,26 @@ $container = get_theme_mod( 'understrap_container_type' );
 						?>
                 </header><!-- .page-header -->
 
+                <div class="container">
+                    <div class="row text-justify">
+                        <p class="col-lg">
+                            Ben je op zoek naar een vaste baan in het onderwijs? Dan ga ik voor jou op zoek naar de
+                            beste
+                            match! Wil je als zzp’er / interim professional (leerkracht of docent) aan de slag? Dan zorg
+                            ik
+                            voor de best passende opdracht! Wil jij jezelf volop gaan ontwikkelen door verschillende
+                            organisaties te gaan ondersteunen voor korte of lange duur? Vraag naar de mogelijkheden!
+                        </p>
+                        <p class="col-lg">
+                            Perfect Onderwijs Match heeft veel vacatures en opdrachten in het onderwijs. Staat jouw
+                            ideale
+                            baan of opdracht er niet tussen? Dan staat deze er wellicht vandaag niet op, maar dat kan
+                            morgen
+                            zomaar anders zijn!
+                        </p>
+                    </div class="row">
+                </div>
+
                 <div class="jobs-list-section container-fluid">
                     <div class="row">
                         <?php
