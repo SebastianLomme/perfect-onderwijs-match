@@ -14940,6 +14940,10 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   border: 1px solid transparent;
 }
 
+.home .menu-item-home {
+  display: none;
+}
+
 .info-section {
   margin-block: 2em;
 }
