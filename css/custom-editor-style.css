@@ -388,10 +388,6 @@ legend + * {
   padding: 0;
 }
 
-::-webkit-file-upload-button {
-  font: inherit;
-}
-
 ::file-selector-button {
   font: inherit;
 }
@@ -452,7 +448,7 @@ progress {
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #faf7fb;
-  --bs-dark: #1d1d1b;
+  --bs-dark: rgb(29, 29, 27);
   --bs-primary-rgb: 152, 100, 166;
   --bs-secondary-rgb: 228, 13, 126;
   --bs-success-rgb: 25, 135, 84;
@@ -626,7 +622,7 @@ progress {
 }
 
 .table-dark {
-  --bs-table-bg: #1d1d1b;
+  --bs-table-bg: rgb(29, 29, 27);
   --bs-table-striped-bg: #282826;
   --bs-table-striped-color: #fff;
   --bs-table-active-bg: #343432;
@@ -1013,12 +1009,12 @@ progress {
 
 .has-dark-color,
 .has-dark-color:visited {
-  color: #1d1d1b;
+  color: rgb(29, 29, 27);
 }
 
 .has-dark-background-color {
-  background-color: #1d1d1b;
-  border-color: #1d1d1b;
+  background-color: rgb(29, 29, 27);
+  border-color: rgb(29, 29, 27);
 }
 
 figure.wp-block-image {
@@ -1047,41 +1043,41 @@ body.understrap-no-sidebar .wp-block-cover.alignfull .wp-block-cover__inner-cont
 }
 @media (min-width: 576px) {
   body.understrap-no-sidebar .alignwide .wp-block-cover__inner-container,
-body.understrap-no-sidebar .alignfull .wp-block-cover__inner-container,
-body.understrap-no-sidebar .wp-block-cover.alignwide .wp-block-cover__inner-container,
-body.understrap-no-sidebar .wp-block-cover.alignfull .wp-block-cover__inner-container {
+  body.understrap-no-sidebar .alignfull .wp-block-cover__inner-container,
+  body.understrap-no-sidebar .wp-block-cover.alignwide .wp-block-cover__inner-container,
+  body.understrap-no-sidebar .wp-block-cover.alignfull .wp-block-cover__inner-container {
     max-width: 540px;
   }
 }
 @media (min-width: 768px) {
   body.understrap-no-sidebar .alignwide .wp-block-cover__inner-container,
-body.understrap-no-sidebar .alignfull .wp-block-cover__inner-container,
-body.understrap-no-sidebar .wp-block-cover.alignwide .wp-block-cover__inner-container,
-body.understrap-no-sidebar .wp-block-cover.alignfull .wp-block-cover__inner-container {
+  body.understrap-no-sidebar .alignfull .wp-block-cover__inner-container,
+  body.understrap-no-sidebar .wp-block-cover.alignwide .wp-block-cover__inner-container,
+  body.understrap-no-sidebar .wp-block-cover.alignfull .wp-block-cover__inner-container {
     max-width: 720px;
   }
 }
 @media (min-width: 992px) {
   body.understrap-no-sidebar .alignwide .wp-block-cover__inner-container,
-body.understrap-no-sidebar .alignfull .wp-block-cover__inner-container,
-body.understrap-no-sidebar .wp-block-cover.alignwide .wp-block-cover__inner-container,
-body.understrap-no-sidebar .wp-block-cover.alignfull .wp-block-cover__inner-container {
+  body.understrap-no-sidebar .alignfull .wp-block-cover__inner-container,
+  body.understrap-no-sidebar .wp-block-cover.alignwide .wp-block-cover__inner-container,
+  body.understrap-no-sidebar .wp-block-cover.alignfull .wp-block-cover__inner-container {
     max-width: 960px;
   }
 }
 @media (min-width: 1200px) {
   body.understrap-no-sidebar .alignwide .wp-block-cover__inner-container,
-body.understrap-no-sidebar .alignfull .wp-block-cover__inner-container,
-body.understrap-no-sidebar .wp-block-cover.alignwide .wp-block-cover__inner-container,
-body.understrap-no-sidebar .wp-block-cover.alignfull .wp-block-cover__inner-container {
+  body.understrap-no-sidebar .alignfull .wp-block-cover__inner-container,
+  body.understrap-no-sidebar .wp-block-cover.alignwide .wp-block-cover__inner-container,
+  body.understrap-no-sidebar .wp-block-cover.alignfull .wp-block-cover__inner-container {
     max-width: 1140px;
   }
 }
 @media (min-width: 1400px) {
   body.understrap-no-sidebar .alignwide .wp-block-cover__inner-container,
-body.understrap-no-sidebar .alignfull .wp-block-cover__inner-container,
-body.understrap-no-sidebar .wp-block-cover.alignwide .wp-block-cover__inner-container,
-body.understrap-no-sidebar .wp-block-cover.alignfull .wp-block-cover__inner-container {
+  body.understrap-no-sidebar .alignfull .wp-block-cover__inner-container,
+  body.understrap-no-sidebar .wp-block-cover.alignwide .wp-block-cover__inner-container,
+  body.understrap-no-sidebar .wp-block-cover.alignfull .wp-block-cover__inner-container {
     max-width: 1320px;
   }
 }
@@ -1101,37 +1097,37 @@ body.understrap-no-sidebar .wp-block-cover.alignwide .wp-block-cover__inner-cont
 }
 @media (min-width: 576px) {
   body.understrap-no-sidebar .alignwide .wp-block-cover__inner-container,
-body.understrap-no-sidebar .wp-block-cover.alignwide .wp-block-cover__inner-container {
+  body.understrap-no-sidebar .wp-block-cover.alignwide .wp-block-cover__inner-container {
     max-width: 540px;
   }
 }
 @media (min-width: 768px) {
   body.understrap-no-sidebar .alignwide .wp-block-cover__inner-container,
-body.understrap-no-sidebar .wp-block-cover.alignwide .wp-block-cover__inner-container {
+  body.understrap-no-sidebar .wp-block-cover.alignwide .wp-block-cover__inner-container {
     max-width: 720px;
   }
 }
 @media (min-width: 992px) {
   body.understrap-no-sidebar .alignwide .wp-block-cover__inner-container,
-body.understrap-no-sidebar .wp-block-cover.alignwide .wp-block-cover__inner-container {
+  body.understrap-no-sidebar .wp-block-cover.alignwide .wp-block-cover__inner-container {
     max-width: 960px;
   }
 }
 @media (min-width: 1200px) {
   body.understrap-no-sidebar .alignwide .wp-block-cover__inner-container,
-body.understrap-no-sidebar .wp-block-cover.alignwide .wp-block-cover__inner-container {
+  body.understrap-no-sidebar .wp-block-cover.alignwide .wp-block-cover__inner-container {
     max-width: 1140px;
   }
 }
 @media (min-width: 1400px) {
   body.understrap-no-sidebar .alignwide .wp-block-cover__inner-container,
-body.understrap-no-sidebar .wp-block-cover.alignwide .wp-block-cover__inner-container {
+  body.understrap-no-sidebar .wp-block-cover.alignwide .wp-block-cover__inner-container {
     max-width: 1320px;
   }
 }
 @media (max-width: 920px) {
   body.understrap-no-sidebar .alignwide,
-body.understrap-no-sidebar .wp-block-cover.alignwide {
+  body.understrap-no-sidebar .wp-block-cover.alignwide {
     margin: 0px calc(50% - 48vw);
     max-width: 96vw;
     width: 100vw;
